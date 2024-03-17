@@ -74,16 +74,6 @@ function Skills() {
 						typeSpeed={35}
 						hideCursorAfterText={true}
 					/>
-					{/* &nbsp;&nbsp;
-					<span id='skillsMobileSecond'>
-						<TypeWriterEffect
-							startDelay={4000}
-							cursorColor='white'
-							text='These are my strongest skillsets and technologies.'
-							typeSpeed={35}
-							hideCursorAfterText={true}
-						/>
-					</span> */}
 				</p>
 				<div className='skills-box'>
 					<h1 className='skills-title'>Frontend</h1>
@@ -93,30 +83,16 @@ function Skills() {
 							<h2>React JS</h2>
 							<p>Seasoned React Developer</p>
 						</div>
-						<div id='ReactSkill' className='skillSeparator'></div>
-						{/* <div id="ReduxSkill" className="skills-item">
-              <img src={ReduxImg} alt="Redux" />
-              <h2>Redux</h2>
-              <p>A useful tool for managing state in large-scale systems</p>
-            </div>
-            <div id="ReduxSkill" className="skillSeparator"></div> */}
+						<div id='JavascriptSkill' className='skillSeparator'></div>
 						<div id='JavascriptSkill' className='skills-item'>
 							<img src={JavascriptImg} alt='Javascript' />
 							<h2>Javascript</h2>
 							<p>Very strong JavaScript fundamentals.</p>
 						</div>
+
 						<div
-							id='JavascriptSkill'
+							id='CSSSkill'
 							className='skillSeparator hiddenSkillSeparator'></div>
-						{/* <div id="RubySkill" className="skills-item responsiveSkillsItem1">
-              <img src={RubyImg} alt="Ruby" />
-              <h2>Ruby</h2>
-              <p>My first programming language, dynamic and simplistic</p>
-            </div> */}
-						{/* <div
-              id="RubySkill"
-              className="skillSeparator responsiveSkillsItem2"
-            ></div> */}
 						<div id='CSSSkill' className='skills-item responsiveSkillsItem3'>
 							<img src={CSSImg} alt='CSS' />
 							<h2>CSS</h2>
@@ -135,44 +111,20 @@ function Skills() {
 							<h2>Node JS</h2>
 							<p>Proficient Node Developer.</p>
 						</div>
-						<div id='NodeSkill' className='skillSeparator'></div>
-						{/* <div id="MongoDBSkill" className="skills-item">
-              <img src={MongoDBImg} alt="MongoDB" />
-              <h2>MongoDB</h2>
-              <p>
-                Mongoose's flexibility allows me to create complex data models
-                with ease
-              </p>
-            </div>
-            <div id="MongoDBSkill" className="skillSeparator"></div> */}
+						<div id='SQLSkill' className='skillSeparator'></div>
 						<div id='SQLSkill' className='skills-item'>
 							<img src={SQLImg} alt='SQL' />
 							<h2>SQL</h2>
 							<p>Strong SQL skills and great database design fundamentals.</p>
 						</div>
 						<div
-							id='SQLSkill'
+							id='DjangoSkill'
 							className='skillSeparator hiddenSkillSeparator'></div>
 						<div id='DjangoSkill' className='skills-item responsiveSkillsItem1'>
 							<img src={RailsImg} alt='Ruby-on-Rails' />
 							<h2>Django</h2>
 							<p>Seasoned Django Developer</p>
 						</div>
-						{/* <div
-              id="RubyonRailsSkill"
-              className="skillSeparator responsiveSkillsItem2"
-            ></div> */}
-						{/* <div
-              id="FirebaseSkill"
-              className="skills-item responsiveSkillsItem3"
-            >
-              <img src={FirebaseImg} alt="Firebase" />
-              <h2>Firebase</h2>
-              <p>
-                A highly versatile NoSQL database - I'm also adept at its
-                Storage and Auth systems
-              </p>
-            </div> */}
 					</div>
 				</div>
 			</div>
