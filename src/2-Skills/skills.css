@@ -641,12 +641,14 @@
 	}
 	.cwu-img-hover-box {
 		width: 35rem;
+		border-radius: 0;
 	}
 	.cwu-img {
 		left: 50%;
 		transform: translateX(-50%);
 		height: 100%;
 		width: 35rem;
+		border-radius: 0;
 	}
 	.cwu-text-box {
 		height: 32.5rem;
