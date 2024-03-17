@@ -726,8 +726,11 @@
 	}
 }
 @media (max-width: 650px) {
+	#DjangoSkill {
+		padding-top: 2rem;
+	}
 	.skills-container {
-		padding: 2rem 0 2rem 0;
+		padding: 7rem 0 2rem 0;
 	}
 	.skills-header {
 		font-size: 4.5rem;
@@ -799,6 +802,10 @@
 	#cert-pointer-gone {
 		opacity: 1;
 	}
+	.cwu-item {
+		height: 63rem;
+		padding-bottom: 3rem;
+	}
 	.cwu-text-box h3 {
 		font-size: 1.5rem;
 	}
@@ -806,10 +813,10 @@
 		font-size: 3rem;
 	}
 	.cwu-text-box h4 {
-		font-size: 1.95rem;
+		font-size: 1.6rem;
 	}
 	.cwu-text-box p {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		line-height: 1.85rem;
 	}
 }
