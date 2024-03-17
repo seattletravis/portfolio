@@ -70,7 +70,7 @@ function Skills() {
 					<TypeWriterEffect
 						startDelay={1000}
 						cursorColor='white'
-						text="I'm a fast learner who uses documentation and online resources to build strong code."
+						text="I'm a fast learner who uses documentation and online resources to build clean, reusable, and easy to read code."
 						typeSpeed={35}
 						hideCursorAfterText={true}
 					/>
@@ -268,7 +268,7 @@ function Skills() {
 							</div>
 							<p>
 								Conducted undergrasuate research on C60 Buckminsterfullerene
-								nanoparticles and their toxicity on biological systems. Reaseach
+								nanoparticles and their toxicity on biological systems. Research
 								included imaging nanoparticles using scanning tunneling
 								microscopy.
 							</p>
