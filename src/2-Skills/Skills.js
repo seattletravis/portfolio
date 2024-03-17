@@ -74,16 +74,16 @@ function Skills() {
 						typeSpeed={35}
 						hideCursorAfterText={true}
 					/>
-					&nbsp;&nbsp;
+					{/* &nbsp;&nbsp;
 					<span id='skillsMobileSecond'>
 						<TypeWriterEffect
 							startDelay={4000}
 							cursorColor='white'
-							//   text="These are my strongest skillsets and technologies."
+							text='These are my strongest skillsets and technologies.'
 							typeSpeed={35}
 							hideCursorAfterText={true}
 						/>
-					</span>
+					</span> */}
 				</p>
 				<div className='skills-box'>
 					<h1 className='skills-title'>Frontend</h1>
