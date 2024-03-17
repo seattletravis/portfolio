@@ -153,7 +153,7 @@ function About() {
 								<img src={PDF_Icon} alt='PDF' className='about-resume-pdf' />
 							</a>
 							<a
-								href='https://docs.google.com/document/d/1Oe-zKdlp0BpDYQMK6FmnJpq2rV_KYMvbh3ElkJ0QXdw/edit?usp=sharing'
+								href='https://docs.google.com/document/d/1rXchyoRLmfLepniCc83KeKEr2qcyQo9DYQ_zMObBtSM/edit?usp=sharing'
 								target='_blank'
 								rel='noreferrer'>
 								<img

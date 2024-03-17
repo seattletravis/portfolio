@@ -49,7 +49,7 @@ function Navbar() {
 						onClick={() => handleLogoClick()}
 					/>
 					<h1>Travis Lamberte</h1>
-					<p>Fullstack Developer</p>
+					{/* <p>Fullstack Developer</p> */}
 				</div>
 				<div>
 					<ul className='nav-menu'>
