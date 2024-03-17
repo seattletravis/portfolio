@@ -146,6 +146,9 @@
 	animation: skilsBoxFade 1s ease 1.25s forwards;
 	opacity: 0;
 }
+#JavascriptSkill img {
+	border-radius: 1rem;
+}
 /* #RubySkill {
 	animation: skilsBoxFade 1s ease 2.25s forwards;
 	opacity: 0;
@@ -169,6 +172,9 @@
 #DjangoSkill {
 	animation: skilsBoxFade 1s ease 3.25s forwards;
 	opacity: 0;
+}
+#DjangoSkill img {
+	border-radius: 1rem;
 }
 /* #FirebaseSkill {
 	animation: skilsBoxFade 1s ease 2.75s forwards;

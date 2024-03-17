@@ -11,6 +11,7 @@ import NodeImg from '../Media/Images/skills/node.png';
 import MongoDBImg from '../Media/Images/skills/mongodb.png';
 import RailsImg from '../Media/Images/skills/rails.png';
 import SQLImg from '../Media/Images/skills/sql.png';
+import DjangoImg from '../Media/Images/skills/Django.png';
 import FirebaseImg from '../Media/Images/skills/firebase.png';
 import FlatironImg from '../Media/Images/flatiron_logo.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
@@ -121,7 +122,7 @@ function Skills() {
 							id='DjangoSkill'
 							className='skillSeparator hiddenSkillSeparator'></div>
 						<div id='DjangoSkill' className='skills-item responsiveSkillsItem1'>
-							<img src={RailsImg} alt='Ruby-on-Rails' />
+							<img src={DjangoImg} alt='Django' />
 							<h2>Django</h2>
 							<p>Seasoned Django Developer</p>
 						</div>
