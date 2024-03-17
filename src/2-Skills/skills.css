@@ -74,8 +74,8 @@
 	margin: 5.5rem 0 0;
 	padding: 2.5rem 0;
 	border: 1px solid sienna;
-	background-color: rgba(0, 0, 0, 0.25);
-	color: whitesmoke;
+	background-color: beige;
+	color: black;
 	border-radius: 1rem;
 	animation: skilsBoxFade 1.75s ease forwards;
 	opacity: 0;
@@ -135,42 +135,42 @@
 	animation: skilsBoxFade 1s ease 0.75s forwards;
 	opacity: 0;
 }
-#ReduxSkill {
+/* #ReduxSkill {
+	animation: skilsBoxFade 1s ease 1.25s forwards;
+	opacity: 0;
+} */
+#JavascriptSkill {
 	animation: skilsBoxFade 1s ease 1.25s forwards;
 	opacity: 0;
 }
-#JavascriptSkill {
-	animation: skilsBoxFade 1s ease 1.75s forwards;
-	opacity: 0;
-}
-#RubySkill {
+/* #RubySkill {
 	animation: skilsBoxFade 1s ease 2.25s forwards;
 	opacity: 0;
-}
+} */
 #CSSSkill {
-	animation: skilsBoxFade 1s ease 2.75s forwards;
+	animation: skilsBoxFade 1s ease 1.75s forwards;
 	opacity: 0;
 }
 #NodeSkill {
-	animation: skilsBoxFade 1s ease 0.75s forwards;
-	opacity: 0;
-}
-#MongoDBSkill {
-	animation: skilsBoxFade 1s ease 1.25s forwards;
-	opacity: 0;
-}
-#SQLSkill {
-	animation: skilsBoxFade 1s ease 1.75s forwards;
-	opacity: 0;
-}
-#RubyonRailsSkill {
 	animation: skilsBoxFade 1s ease 2.25s forwards;
 	opacity: 0;
 }
-#FirebaseSkill {
+/* #MongoDBSkill {
+	animation: skilsBoxFade 1s ease 1.25s forwards;
+	opacity: 0;
+} */
+#SQLSkill {
 	animation: skilsBoxFade 1s ease 2.75s forwards;
 	opacity: 0;
 }
+#DjangoSkill {
+	animation: skilsBoxFade 1s ease 3.25s forwards;
+	opacity: 0;
+}
+/* #FirebaseSkill {
+	animation: skilsBoxFade 1s ease 2.75s forwards;
+	opacity: 0;
+} */
 
 .education-separator {
 	width: 0;
