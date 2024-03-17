@@ -254,7 +254,7 @@
 	position: relative;
 	height: 100%;
 	width: 100%;
-	border-radius: 0.25rem 0 0 0.25rem;
+	/* border-radius: 0.25rem 0 0 0.25rem; */
 }
 .cwu-img {
 	position: absolute;
@@ -263,6 +263,9 @@
 	width: 42.5rem;
 	border-radius: 0.25rem 0 0 0.25rem;
 	transition: opacity 0.5s ease-in-out;
+	background-color: beige;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
 }
 #cwu-pointer {
 	position: absolute;
@@ -292,6 +295,8 @@
 	opacity: 0;
 	cursor: pointer;
 	transition: all 0.25s ease;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
 }
 .cwu-img-hover-box h1 {
 	position: absolute;
@@ -317,7 +322,8 @@
 	padding: 0 2.5rem;
 	background-color: beige;
 	color: black;
-	border-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
 }
 .cwu-text-box h3 {
 	align-self: center;
