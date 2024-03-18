@@ -40,6 +40,7 @@
 	animation: contactBounce 1s ease forwards;
 }
 .port-description {
+	color: black;
 	margin-top: 2.75rem;
 	font-size: 1.85rem;
 	transform: scale(0.9);
@@ -50,6 +51,7 @@
 		transform: scale(1);
 	}
 }
+
 .port-description span {
 	display: inline-block;
 	opacity: 0;
@@ -374,7 +376,7 @@
 }
 .other-header {
 	position: relative;
-	color: white;
+	color: black;
 	font-size: 6rem;
 	font-weight: 600;
 	margin-top: 5rem;
@@ -390,6 +392,7 @@
 	animation: contactBounce 1s ease forwards;
 }
 .other-description {
+	color: black;
 	margin-top: 2.75rem;
 	font-size: 1.85rem;
 	opacity: 0;

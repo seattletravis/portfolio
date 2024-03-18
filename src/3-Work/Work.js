@@ -15,6 +15,10 @@ import MySimpleWardrobeLogo from '../Media/Images/portfolio-logos/MySimpleWardro
 import GroceryMagixLogo from '../Media/Images/portfolio-logos/GroceryMagixLogo.png';
 import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancialTrackerLogo.png';
 import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
+// Feature Logos
+import GumImg from '../Media/Images/projectImages/gum.png';
+import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
+import SnakeImg from '../Media/Images/projectImages/snakeLD.png';
 // Other Logos
 import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
 import BooklistLogo from '../Media/Images/other-work-icons/MyBooklistLogo.png';
@@ -193,6 +197,7 @@ function Work() {
 					<span>walkthrough.&nbsp;</span>
 				</p>
 				<div className='port-items'>
+					{/* EVERYTHING BUBBLE GUM */}
 					<div
 						className='port-item'
 						id='portItem1'
@@ -202,19 +207,19 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={MySimpleWardrobeGif}
-									alt='My Simple Wardrobe Gif'
+									src={GumImg}
+									alt='Bubble Gum Guessing Game'
 									style={port1 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={MySimpleWardrobeLogo}
-									alt='My Simple Wardrobe Logo'
+									src={GumImg}
+									alt='BUbble Gum Guessing Game'
 									style={port1 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
-								href='https://www.mysimplewardrobe.com/'
+								href='https://travis.lamberte.com/bubbleGum/index.html'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -224,19 +229,17 @@ function Work() {
 							</a>
 						</div>
 						<div className='port-text-box'>
-							<h1 className='port-title'>
-								My Simple Wardrobe<span>&trade;</span>
-							</h1>
+							<h1 className='port-title'>Bubble Gum Guessing Game</h1>
 							<a
 								className='port-title-site'
-								href='https://www.mysimplewardrobe.com/'
+								href='https://travis.lamberte.com/bubbleGum/index.html'
 								target='_blank'
 								rel='noreferrer'>
-								www.mysimplewardrobe.com
+								https://travis.lamberte.com/bubblegum/index.html
 							</a>
 							<p className='port-headline'>
-								A fully functional eCommerce clothing store with Stripe&trade;
-								checkout and an Admin panel.
+								A fully immersive 3D environment game build with ThreeJS, and a
+								physics engine.
 							</p>
 							<div className='port-btn-box'>
 								<div
@@ -248,6 +251,7 @@ function Work() {
 							</div>
 						</div>
 					</div>
+					{/* EVERYTHING TILT3D */}
 					<div
 						className='port-item'
 						id='portItem2'
@@ -257,19 +261,19 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={GroceryMagixGif}
-									alt='Grocery Magix Gif'
+									src={TiltImg}
+									alt='Tilt3D Image'
 									style={port2 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={GroceryMagixLogo}
-									alt='Grocery Magix Logo'
+									src={TiltImg}
+									alt='Tilt3D Image'
 									style={port2 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
-								href='https://www.grocerymagix.com/'
+								href='https://travis.lamberte.com/tilt3dSinglePlayer/index.html'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -280,18 +284,18 @@ function Work() {
 						</div>
 						<div className='port-text-box'>
 							<h1 className='port-title'>
-								Grocery Magix<span>&trade;</span>
+								Tilt3D<span>&trade;</span>
 							</h1>
 							<a
 								className='port-title-site'
-								href='https://www.grocerymagix.com/'
+								href='https://travis.lamberte.com/tilt3dSinglePlayer/index.html'
 								target='_blank'
 								rel='noreferrer'>
-								www.grocerymagix.com
+								https://travis.lamberte.com/tilt3dSinglePlayer/index.html
 							</a>
 							<p className='port-headline'>
-								Search through millions of recipes, pick your favorites and
-								instantly generate a shopping list.
+								Let's push ThreeJS to it's limits with this Jenga Style game
+								built in a fully immersive 3D environment.
 							</p>
 							<div className='port-btn-box'>
 								<div
@@ -303,6 +307,7 @@ function Work() {
 							</div>
 						</div>
 					</div>
+					{/* EVERYTHING SNAKE EATS BOIDS */}
 					<div
 						className='port-item'
 						id='portItem3'
@@ -312,19 +317,19 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={TheFinancialTrackerGif}
-									alt='The Financial Tracker Gif'
+									src={SnakeImg}
+									alt='Snake Eats Boids Image'
 									style={port3 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={TheFinancialTrackerLogo}
-									alt='The Financial Tracker Logo'
+									src={SnakeImg}
+									alt='Snake Eats Boids Image'
 									style={port3 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
-								href='https://www.thefinancialtracker.com/'
+								href='https://lambertedesign.com'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -335,14 +340,14 @@ function Work() {
 						</div>
 						<div className='port-text-box'>
 							<h1 className='port-title'>
-								The Financial Tracker<span>&trade;</span>
+								Snake Eats Boids<span>&trade;</span>
 							</h1>
 							<a
 								className='port-title-site'
-								href='https://www.thefinancialtracker.com/'
+								href='https://lambertedesign.com'
 								target='_blank'
 								rel='noreferrer'>
-								www.thefinancialtracker.com
+								https://lambertedesign.com
 							</a>
 							<p className='port-headline'>
 								Track your income, set a budget and visualize your saving goals
