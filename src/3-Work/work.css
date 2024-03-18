@@ -1,6 +1,7 @@
 .work-container {
 	margin-top: 24rem;
 	padding: 0.5rem 15 3.5rem 15rem;
+	margin-bottom: 24rem;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
