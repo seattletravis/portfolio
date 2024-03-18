@@ -30,7 +30,7 @@
 	transition: all 0.35s ease;
 }
 .navbar-top img:hover {
-	transform: scale(1.075);
+	transform: scale(1.2);
 	cursor: pointer;
 }
 .navbar-top h1 {

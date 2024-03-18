@@ -44,6 +44,7 @@ function Navbar() {
 				<div className='navbar-top'>
 					<img
 						id='logo'
+						title='Contact Me'
 						src={Logo}
 						alt='DV'
 						onClick={() => handleLogoClick()}
@@ -88,12 +89,14 @@ function Navbar() {
 				<div className='navbar-bottom'>
 					<a
 						href='https://www.linkedin.com/in/seattletravis/'
+						title='LinkedIn'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FaLinkedin className='nav-icon' />
 					</a>
 					<a
 						href='https://github.com/seattletravis'
+						title='GitHub'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<FaGithub className='nav-icon' />
