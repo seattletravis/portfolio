@@ -15,10 +15,13 @@ import MySimpleWardrobeLogo from '../Media/Images/portfolio-logos/MySimpleWardro
 import GroceryMagixLogo from '../Media/Images/portfolio-logos/GroceryMagixLogo.png';
 import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancialTrackerLogo.png';
 import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
+//Feature GIF's
+import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 // Feature Logos
 import GumImg from '../Media/Images/projectImages/gum.png';
 import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
 import SnakeImg from '../Media/Images/projectImages/snakeLD.png';
+// import UnchaImg from
 // Other Logos
 import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
 import BooklistLogo from '../Media/Images/other-work-icons/MyBooklistLogo.png';
@@ -363,6 +366,7 @@ function Work() {
 							</div>
 						</div>
 					</div>
+					{/* EVERYTHING UNCHA */}
 					<div
 						className='port-item'
 						id='portItem4'
@@ -372,19 +376,19 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={MyCryptomaticGif}
+									src={UnchaGif}
 									alt='Grocery Magix Gif'
 									style={port4 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={MyCryptomaticLogo}
+									src={UnchaGif}
 									alt='Grocery Magix Logo'
 									style={port4 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
-								href='https://www.mycryptomatic.com/'
+								href='https://github.com/seattletravis/bg_remover_Part_6/'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -395,18 +399,18 @@ function Work() {
 						</div>
 						<div className='port-text-box'>
 							<h1 className='port-title'>
-								My Cryptomatic<span>&trade;</span>
+								Uncha<span>&trade;</span> Batch Background Removal Tool
 							</h1>
 							<a
 								className='port-title-site'
-								href='https://www.mycryptomatic.com/'
+								href='https://github.com/seattletravis/bg_remover_Part_6/'
 								target='_blank'
 								rel='noreferrer'>
-								www.mycryptomatic.com
+								https://github.com/seattletravis/bg_remover_Part_6/
 							</a>
 							<p className='port-headline'>
-								A cryptocurrency tracker with a view of the markets, watchlist,
-								portfolio calculator and news.
+								A powerful Window's application to remove backgrounds from all
+								the PNG images in a directory with a single click.
 							</p>
 							<div className='port-btn-box'>
 								<div
