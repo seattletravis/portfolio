@@ -17,6 +17,7 @@ import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancia
 import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
 //Feature GIF's
 import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
+import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
 // Feature Logos
 import GumImg from '../Media/Images/projectImages/gum.png';
 import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
@@ -320,7 +321,7 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={SnakeImg}
+									src={SnakeGif}
 									alt='Snake Eats Boids Image'
 									style={port3 ? { opacity: '1' } : { opacity: '0' }}
 								/>

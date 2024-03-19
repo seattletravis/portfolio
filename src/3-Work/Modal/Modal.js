@@ -10,6 +10,7 @@ import {
 	SiNodedotjs,
 	SiExpress,
 	SiMongodb,
+	SiJavascript,
 	SiSass,
 	SiRubyonrails,
 	SiPostgresql,
@@ -18,6 +19,7 @@ import MySimpleWardrobeIcon from '../../Media/Images/portfolio-icons/MSW.png';
 import GroceryMagixIcon from '../../Media/Images/portfolio-icons/GM.png';
 import TheFinancialTrackerIcon from '../../Media/Images/portfolio-icons/TFT.png';
 import MyCryptomaticIcon from '../../Media/Images/portfolio-icons/MC.png';
+import SnakeIcon from '../../Media/Images/portfolio-icons/SnakeIcon.png';
 import UnchaLogo from '../../Media/Images/portfolio-icons/UnchaLogo.png';
 
 function Modal({ open, setOpenModal, modalID }) {
@@ -71,24 +73,24 @@ function Modal({ open, setOpenModal, modalID }) {
 		},
 		{
 			id: 3,
-			title: 'The Financial Tracker',
-			logo: TheFinancialTrackerIcon,
-			desc: 'The Financial Tracker™ is a complete personal finance tool. Users can log income and expenses, set monthly budgets and create saving goals. User accounts are secured with the Rails BCrypt gem with all traffic encrypted to and from the server via session cookies.',
+			title: 'Snake Boid AI',
+			logo: SnakeIcon,
+			desc: "Snake Boid AI is an AI behavorial mechanics implementation in the food ojects of a Classic Snake Game. Test your skills against these AI's today!",
 			features: [
-				'Transaction ledger',
-				'Monthly budget',
-				'Adjustable savings goals',
-				'Fully Responsive',
+				'AI implementation of Boids',
+				'Classic Snake Game Implementation',
+				'Particle Effects',
+				'Power Ups',
 			],
-			tools: [SiReact, SiRedux, SiPostgresql, SiRubyonrails, SiSass],
+			tools: [SiJavascript],
 			technologies: {
-				frontend: 'TKinter, Python',
-				backend: 'Machine Learning, Multi-Threading, REMBG, Pillow',
+				frontend: 'JavaScript, Canvas, Boid AI',
+				backend: 'Static Server',
 			},
-			link: 'www.thefinancialtracker.com',
-			url: 'https://www.thefinancialtracker.com/',
-			github: 'https://github.com/davidmvenegas/financial-tracker',
-			video: 'https://www.youtube.com/embed/KX3mJggp4h0',
+			link: 'www.lambertedesign.com',
+			url: 'https://lambertedesign.com/',
+			github: 'https://github.com/seattletravis/SnakeEatsBoids',
+			video: 'https://www.youtube.com/embed/WzBhyxWUdJA?si=jn9Ontfv6v5TFHVw',
 		},
 		{
 			id: 4,
@@ -145,7 +147,7 @@ function Modal({ open, setOpenModal, modalID }) {
 							allowFullScreen='allowfullscreen'></iframe>
 					</div>
 					<div className='modal-tech-wrapper'>
-						<h1>Required Expertise</h1>
+						<h1>Expertise</h1>
 						<div className='modal-techs'>
 							<span>Frontend:&nbsp;</span>
 							{currentData?.technologies?.frontend}
