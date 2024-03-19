@@ -103,13 +103,13 @@ function Modal({ open, setOpenModal, modalID }) {
 			],
 			tools: [SiReact, SiNodedotjs, SiCss3],
 			technologies: {
-				frontend: 'React, Vanilla CSS',
-				backend: 'Node, RapidAPI',
+				frontend: 'TKinter, Python',
+				backend: 'Multi-Threading, REMBG, Pillow, Machine Learning',
 			},
 			link: 'https://github.com/seattletravis/Uncha',
 			url: 'https://github.com/seattletravis/Uncha',
 			github: 'https://github.com/seattletravis/Uncha',
-			video: 'https://youtu.be/wbjmltaJSnk?si=fIgJrrDAGPS2pOy1',
+			video: 'https://www.youtube.com/embed/wbjmltaJSnk?si=OJ9gjbv9mPQSXugg',
 		},
 	];
 	useEffect(() => {
@@ -130,7 +130,7 @@ function Modal({ open, setOpenModal, modalID }) {
 			<div className='modal-wrapper'>
 				<div className='modal-video-wrapper'>
 					<h1 className='modal-video-title'>
-						2 Minute Video Demonstration <br />
+						2 Minute Demo <br />
 						<span>of</span>
 						<br /> <span>{currentData?.title}</span>
 					</h1>
@@ -140,12 +140,12 @@ function Modal({ open, setOpenModal, modalID }) {
 							height='315'
 							src={currentData?.video}
 							title={currentData?.title}
-							frameBorder='0'
+							// frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture'
 							allowFullScreen='allowfullscreen'></iframe>
 					</div>
 					<div className='modal-tech-wrapper'>
-						<h1>Technologies Used</h1>
+						<h1>Required Expertise</h1>
 						<div className='modal-techs'>
 							<span>Frontend:&nbsp;</span>
 							{currentData?.technologies?.frontend}

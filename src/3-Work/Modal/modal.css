@@ -29,7 +29,7 @@
 	justify-content: center;
 	padding: 2rem;
 	border-radius: 0.75rem;
-	background-color: #222;
+	background-color: tan;
 	animation: modalAnim 0.65s ease forwards;
 	margin-right: 75rem;
 	opacity: 0;
@@ -66,16 +66,17 @@
 	text-align: center;
 	line-height: 2.65rem;
 	margin-top: 1rem;
+	color: black;
 }
 .modal-video-title span:first-of-type {
 	font-size: 1.85rem;
 	line-height: 2.75rem;
-	color: #949494;
+	color: black;
 }
 .modal-video-title span:last-of-type {
 	font-size: 3rem;
 	font-weight: 600;
-	color: #08fdd8;
+	color: sienna;
 }
 #modal-trade {
 	display: inline-block;
@@ -91,7 +92,7 @@
 	margin-bottom: -1rem;
 }
 .modal-tech-wrapper {
-	background-color: #373737;
+	background-color: beige;
 	width: 50rem;
 	padding: 1rem 2rem 1.25rem;
 	border-radius: 0.5rem;
@@ -102,14 +103,14 @@
 	font-size: 2.25rem;
 	font-weight: 600;
 	padding: 0.2rem 0 0.8rem;
-	color: #08fdd8;
+	color: sienna;
 }
 .modal-techs {
 	font-size: 1.65rem;
 	font-weight: 300;
 	line-height: 2.65rem;
 	word-spacing: 2px;
-	color: #ddd;
+	color: black;
 	font-style: italic;
 }
 .modal-techs span {
@@ -127,7 +128,7 @@
 	justify-content: space-between;
 	flex-direction: column;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-	background-color: #373737;
+	background-color: beige;
 	animation: modalScale 0.65s ease-in-out 0.35s forwards;
 	opacity: 0;
 	transform: scale(0.75);
@@ -158,6 +159,7 @@
 }
 .modal-title {
 	font-size: 4.25rem;
+	color: sienna;
 }
 .modal-links {
 	position: relative;
@@ -167,12 +169,12 @@
 .modal-link1 {
 	font-size: 1.85rem;
 	font-weight: 300;
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 .modal-link2 {
 	position: absolute;
-	color: white;
+	color: black;
 	font-size: 2.65rem;
 	transition: all 0.25s ease;
 }
@@ -187,7 +189,7 @@
 	height: 3.25rem;
 	width: 3.25rem;
 	margin: 0 0.65rem;
-	color: #08fdd8;
+	color: black;
 }
 .modal-tool:hover {
 	animation: toolBounce 1s ease-in-out;
@@ -227,21 +229,24 @@
 	line-height: 2.75rem;
 	height: 38.5%;
 	margin-bottom: 1.5rem;
+	color: black;
 }
 .modal-features-header {
 	font-size: 2rem;
 	font-weight: 500;
-	text-shadow: 1.5px 1.5px 2px black;
+	text-shadow: 1.5px 1.5px 2px tan;
 	line-height: 2rem;
 	padding: 0.65rem 0 0.35rem;
 	width: fit-content;
 	margin: 0 auto;
 	text-align: center;
+	color: sienna;
 }
 .modal-features {
 	padding: 1rem 0 2rem;
 	border-bottom: 1px solid gray;
 	padding-left: 5rem;
+	color: black;
 }
 .modal-feature {
 	font-size: 1.75rem;
@@ -259,18 +264,18 @@
 .modal-visit-btn {
 	position: relative;
 	font-size: 2rem;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 6px;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 1.25rem 4rem;
-	color: white;
+	color: sienna;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
 	cursor: pointer;
 }
 .modal-visit-btn:before {
 	left: 0;
-	border: 1px solid white;
+	border: 1px solid sienna;
 	border-left: 0;
 	border-right: 0;
 }
@@ -289,14 +294,16 @@
 }
 .modal-visit-btn:hover {
 	color: black;
-	transition-delay: 0.5s;
+	transition-delay: 0.15s;
 }
 .modal-visit-btn:hover:before {
 	transition-delay: 0s;
 }
 .modal-visit-btn:hover:after {
-	background-color: white;
-	transition-delay: 0.35s;
+	background-color: sienna;
+	border-top: solid sienna 2px;
+	/* padding-bottom: 1px; */
+	transition-delay: 0.25s;
 }
 .modal-visit-btn:hover:before,
 .modal-visit-btn:hover:after {

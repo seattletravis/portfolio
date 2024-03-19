@@ -398,19 +398,17 @@ function Work() {
 							</a>
 						</div>
 						<div className='port-text-box'>
-							<h1 className='port-title'>
-								Uncha<span>&trade;</span> Batch Background Removal Tool
-							</h1>
+							<h1 className='port-title'>Uncha Image Tool</h1>
 							<a
 								className='port-title-site'
-								href='https://github.com/seattletravis/bg_remover_Part_6/'
+								href='https://github.com/seattletravis/Uncha/'
 								target='_blank'
 								rel='noreferrer'>
-								https://github.com/seattletravis/bg_remover_Part_6/
+								https://github.com/seattletravis/Uncha/
 							</a>
 							<p className='port-headline'>
-								A powerful Window's application to remove backgrounds from all
-								the PNG images in a directory with a single click.
+								A powerful Window's application to remove backgrounds from the
+								PNG images in a directory.
 							</p>
 							<div className='port-btn-box'>
 								<div
