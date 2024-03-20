@@ -14,6 +14,7 @@ import {
 	SiSass,
 	SiRubyonrails,
 	SiPostgresql,
+	SiHtml5,
 } from 'react-icons/si';
 import MySimpleWardrobeIcon from '../../Media/Images/portfolio-icons/MSW.png';
 import GroceryMagixIcon from '../../Media/Images/portfolio-icons/GM.png';
@@ -52,24 +53,24 @@ function Modal({ open, setOpenModal, modalID }) {
 		},
 		{
 			id: 2,
-			title: 'Grocery Magix',
+			title: 'Tilt3D',
 			logo: GroceryMagixIcon,
-			desc: "With Grocery Magix™ users can search through millions of recipes, pick their favorites and instantly generate grocery lists. It uses Edamam's Recipe API to provide over 2.3 million recipes. Easily customize your meals and aggregate them into concise grocery lists.",
+			desc: 'Tilt3D is a Jenga Style classic tumbling tower puzzle game built as a web application using JavaScript, HTML, and CSS. Test your skills today in this fully emmersive 3D environment.',
 			features: [
-				'Millions of recipes',
-				'Over 30 recipe search filters',
-				'Secure Register/Login system',
-				'Fully responsive',
+				'Elegant Game UI',
+				'Scoring and Game Win/Lose Mechanics',
+				'3D Environment',
+				'Physics Engine',
 			],
-			tools: [SiReact, SiRedux, SiFirebase, SiCss3],
+			tools: [SiJavascript, SiHtml5, SiCss3],
 			technologies: {
-				frontend: 'React, Redux, Context API, Vanilla CSS',
-				backend: 'Firebase Auth, Firebase Firestore',
+				frontend: 'JavaScript, HTML, Vanilla CSS',
+				backend: 'ThreeJS, Cannon ES, Vite',
 			},
-			link: 'www.grocerymagix.com',
-			url: 'https://www.grocerymagix.com/',
-			github: 'https://github.com/davidmvenegas/GroceryMagix',
-			video: 'https://www.youtube.com/embed/05RJu6q-kU0',
+			link: 'https://travis.lamberte.com/tilt3dMenu/index.html',
+			url: 'https://travis.lamberte.com/tilt3dMenu/index.html',
+			github: 'https://github.com/seattletravis/Tilt3dSinglePlayer',
+			video: 'https://www.youtube.com/embed/6YRuOTUMG40?si=jzp36KLafzvb6BUh',
 		},
 		{
 			id: 3,
