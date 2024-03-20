@@ -20,9 +20,14 @@ import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
 import Tilt3DGif from '../Media/Gifs/Tilt3DGIF.gif';
 // Feature Logos
-import GumImg from '../Media/Images/projectImages/gum.png';
-import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
-import SnakeImg from '../Media/Images/projectImages/snakeLD.png';
+// import GumImg from '../Media/Images/projectImages/gum.png';
+// import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
+// import SnakeImg from '../Media/Images/projectImages/snakeLD.png';
+import BubbleGumImg from '../Media/Images/projectImages/BubbleGumIMG.png';
+import SnakeImg from '../Media/Images/projectImages/SnakeIMG.png';
+import UnchaImg from '../Media/Images/projectImages/UnchaIMG.png';
+import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
+
 // import UnchaImg from
 // Other Logos
 import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
@@ -212,13 +217,13 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={GumImg}
+									src={BubbleGumImg}
 									alt='Bubble Gum Guessing Game'
 									style={port1 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={GumImg}
+									src={BubbleGumImg}
 									alt='BUbble Gum Guessing Game'
 									style={port1 ? { opacity: '0' } : { opacity: '1' }}
 								/>
@@ -266,13 +271,13 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={TiltImg}
+									src={Tilt3DGif}
 									alt='Tilt3D Image'
 									style={port2 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={TiltImg}
+									src={Tilt3DImg}
 									alt='Tilt3D Image'
 									style={port2 ? { opacity: '0' } : { opacity: '1' }}
 								/>
@@ -328,7 +333,7 @@ function Work() {
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={SnakeGif}
+									src={SnakeImg}
 									alt='Snake Eats Boids Image'
 									style={port3 ? { opacity: '0' } : { opacity: '1' }}
 								/>
@@ -384,7 +389,7 @@ function Work() {
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={UnchaGif}
+									src={UnchaImg}
 									alt='Grocery Magix Logo'
 									style={port4 ? { opacity: '0' } : { opacity: '1' }}
 								/>
