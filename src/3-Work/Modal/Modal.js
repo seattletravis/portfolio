@@ -70,7 +70,7 @@ function Modal({ open, setOpenModal, modalID }) {
 			link: 'https://travis.lamberte.com/tilt3dMenu/index.html',
 			url: 'https://travis.lamberte.com/tilt3dMenu/index.html',
 			github: 'https://github.com/seattletravis/Tilt3dSinglePlayer',
-			video: 'https://www.youtube.com/embed/6YRuOTUMG40?si=jzp36KLafzvb6BUh',
+			video: 'https://www.youtube.com/embed/hSSwnnRsiJE?si=MIRqNHnK6K6uZqTf',
 		},
 		{
 			id: 3,
