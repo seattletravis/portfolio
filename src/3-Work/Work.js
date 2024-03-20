@@ -18,6 +18,7 @@ import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo
 //Feature GIF's
 import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
+import Tilt3DGif from '../Media/Gifs/Tilt3DGIF.gif';
 // Feature Logos
 import GumImg from '../Media/Images/projectImages/gum.png';
 import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
@@ -327,7 +328,7 @@ function Work() {
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={SnakeImg}
+									src={SnakeGif}
 									alt='Snake Eats Boids Image'
 									style={port3 ? { opacity: '0' } : { opacity: '1' }}
 								/>
