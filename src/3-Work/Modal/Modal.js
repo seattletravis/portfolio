@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react';
 import { ImCross } from 'react-icons/im';
 import { FaGithub } from 'react-icons/fa';
 import {
+	SiLinux,
+	SiGithub,
+	SiVisualstudiocode,
 	SiReact,
 	SiRedux,
 	SiFirebase,
@@ -15,6 +18,7 @@ import {
 	SiRubyonrails,
 	SiPostgresql,
 	SiHtml5,
+	SiPython,
 } from 'react-icons/si';
 import MySimpleWardrobeIcon from '../../Media/Images/portfolio-icons/MSW.png';
 import GroceryMagixIcon from '../../Media/Images/portfolio-icons/GM.png';
@@ -77,14 +81,14 @@ function Modal({ open, setOpenModal, modalID }) {
 			id: 3,
 			title: 'Snake Boid AI',
 			logo: SnakeIcon,
-			desc: "Snake Boid AI is an AI behavorial mechanics implementation in the food ojects of a Classic Snake Game. Test your skills against these AI's today!",
+			desc: 'Snake Boid AI is an AI behavorial implementation in the food ojects of a Classic Snake Game. Boid AI gives the food objects emergent flocking behavior by giving simple behaviors to each individual of the flock.',
 			features: [
 				'AI implementation of Boids',
 				'Classic Snake Game Implementation',
 				'Particle Effects',
 				'Power Ups',
 			],
-			tools: [SiJavascript],
+			tools: [SiJavascript, SiVisualstudiocode, SiGithub],
 			technologies: {
 				frontend: 'JavaScript, Canvas, Boid AI',
 				backend: 'Static Server',
@@ -105,10 +109,10 @@ function Modal({ open, setOpenModal, modalID }) {
 				"High Quality Transparent PNG's",
 				'Open Source and Free to Use',
 			],
-			tools: [SiReact, SiNodedotjs, SiCss3],
+			tools: [SiPython, SiVisualstudiocode, SiGithub],
 			technologies: {
 				frontend: 'TKinter, Python',
-				backend: 'Multi-Threading, REMBG, Pillow, Machine Learning',
+				backend: 'Multi-Threading, REMBG, Machine Learning',
 			},
 			link: 'https://github.com/seattletravis/Uncha',
 			url: 'https://github.com/seattletravis/Uncha',
@@ -151,11 +155,11 @@ function Modal({ open, setOpenModal, modalID }) {
 					<div className='modal-tech-wrapper'>
 						<h1>Expertise</h1>
 						<div className='modal-techs'>
-							<span>Frontend:&nbsp;</span>
+							<span>Core Technologies:&nbsp;</span>
 							{currentData?.technologies?.frontend}
 						</div>
 						<div className='modal-techs'>
-							<span>Backend:&nbsp;</span>
+							<span>Other Skills:&nbsp;</span>
 							{currentData?.technologies?.backend}
 						</div>
 					</div>
