@@ -39,18 +39,18 @@ import BeemoLogo from '../Media/Images/other-work-icons/BeemoLogo.png';
 import UncleHawaiiLogo from '../Media/Images/other-work-icons/UncleHawaiiLogo.png';
 import PPortLogo from '../Media/Images/other-work-icons/seattletravisLogo.png';
 import TBGif from '../Media/Images/other-work-icons/TBGIFLogo.gif';
-import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
-import BooklistLogo from '../Media/Images/other-work-icons/MyBooklistLogo.png';
-import QuizLogo from '../Media/Images/other-work-icons/MiniQuizLogo.png';
-import TicTacToeLogo from '../Media/Images/other-work-icons/TicTacToeLogo.png';
-import CalculatorLogo from '../Media/Images/other-work-icons/CalculatorLogo.png';
-import RockPaperScissorsLogo from '../Media/Images/other-work-icons/RockPaperScissorsLogo.png';
-import CoinFlipLogo from '../Media/Images/other-work-icons/CoinFlipLogo.png';
-import RestaurantLogo from '../Media/Images/other-work-icons/RestaurantPageLogo.png';
-import StarbucksLogo from '../Media/Images/other-work-icons/StarbucksLogo.png';
-import NotesLogo from '../Media/Images/other-work-icons/NotesAppLogo.png';
-import PasswordLogo from '../Media/Images/other-work-icons/PasswordGeneratorLogo.png';
-import NewYearsLogo from '../Media/Images/other-work-icons/NewYearsTimerLogo.png';
+// import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
+// import BooklistLogo from '../Media/Images/other-work-icons/MyBooklistLogo.png';
+// import QuizLogo from '../Media/Images/other-work-icons/MiniQuizLogo.png';
+// import TicTacToeLogo from '../Media/Images/other-work-icons/TicTacToeLogo.png';
+// import CalculatorLogo from '../Media/Images/other-work-icons/CalculatorLogo.png';
+// import RockPaperScissorsLogo from '../Media/Images/other-work-icons/RockPaperScissorsLogo.png';
+// import CoinFlipLogo from '../Media/Images/other-work-icons/CoinFlipLogo.png';
+// import RestaurantLogo from '../Media/Images/other-work-icons/RestaurantPageLogo.png';
+// import StarbucksLogo from '../Media/Images/other-work-icons/StarbucksLogo.png';
+// import NotesLogo from '../Media/Images/other-work-icons/NotesAppLogo.png';
+// import PasswordLogo from '../Media/Images/other-work-icons/PasswordGeneratorLogo.png';
+// import NewYearsLogo from '../Media/Images/other-work-icons/NewYearsTimerLogo.png';
 
 function Work() {
 	useEffect(() => {
