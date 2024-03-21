@@ -70,102 +70,102 @@ function Work() {
 	const otherData = [
 		{
 			id: 1,
-			title: 'Weather App',
+			title: 'Prev. Portfolio',
 			image: WeatherLogo,
-			github: 'https://github.com/davidmvenegas/WeatherApp',
-			link: 'https://davidmvenegas.github.io/WeatherApp',
-			largeTitle: false,
-		},
-		{
-			id: 2,
-			title: 'Favorite Books',
-			image: BooklistLogo,
-			github: 'https://github.com/davidmvenegas/MyFavoriteBooks',
-			link: 'https://davidmvenegas.github.io/MyFavoriteBooks',
-			largeTitle: false,
-		},
-		{
-			id: 3,
-			title: 'Coin Flip',
-			image: CoinFlipLogo,
-			github: 'https://github.com/davidmvenegas/CoinFlip',
-			link: 'https://davidmvenegas.github.io/CoinFlip',
-			largeTitle: false,
-		},
-		{
-			id: 4,
-			title: 'Tic-Tac-Toe',
-			image: TicTacToeLogo,
-			github: 'https://github.com/davidmvenegas/TicTacToe',
-			link: 'https://davidmvenegas.github.io/TicTacToe',
-			largeTitle: false,
-		},
-		{
-			id: 5,
-			title: 'Calculator',
-			image: CalculatorLogo,
-			github: 'https://github.com/davidmvenegas/Calculator',
-			link: 'https://davidmvenegas.github.io/Calculator',
+			github: 'https://github.com/seattletravis/seattletravis',
+			link: 'https://seattletravis.com',
 			largeTitle: false,
 		},
 		{
 			id: 6,
-			title: 'Rock Paper Scissors',
+			title: 'Apparel Shop',
 			image: RockPaperScissorsLogo,
-			github: 'https://github.com/davidmvenegas/RockPaperScissors',
-			link: 'https://davidmvenegas.github.io/RockPaperScissors',
+			github: 'https://github.com/seattletravis',
+			link: 'https://www.unclehawaii.com/',
 			largeTitle: true,
+		},
+		{
+			id: 2,
+			title: 'Beemo Date & Time',
+			image: BooklistLogo,
+			github: 'https://github.com/seattletravis',
+			link: 'https://travis.lamberte.com/clock/index.html',
+			largeTitle: false,
+		},
+		{
+			id: 3,
+			title: 'Orbits',
+			image: CoinFlipLogo,
+			github: 'https://github.com/seattletravis',
+			link: 'https://travis.lamberte.com/orbit/index.html',
+			largeTitle: false,
+		},
+		{
+			id: 4,
+			title: "90's Throwback",
+			image: TicTacToeLogo,
+			github: 'https://github.com/seattletravis',
+			link: 'https://travis.lamberte.com/throwback90s/index.html',
+			largeTitle: false,
+		},
+		{
+			id: 5,
+			title: 'Tetrominos',
+			image: CalculatorLogo,
+			github: 'https://github.com/seattletravis',
+			link: 'https://travis.lamberte.com/tetromino/index.html',
+			largeTitle: false,
 		},
 		{
 			id: 7,
-			title: 'Quiz App',
+			title: 'Old Website',
 			image: QuizLogo,
-			github: 'https://github.com/davidmvenegas/quizApp',
-			link: 'https://davidmvenegas-quizapp.netlify.app',
+			github: 'https://github.com/seattletravis',
+			link: 'https://travis.lamberte.com',
 			largeTitle: false,
 		},
-		{
-			id: 8,
-			title: 'Starbucks Page',
-			image: StarbucksLogo,
-			github: 'https://github.com/davidmvenegas/StarbucksPageClone',
-			link: 'https://davidmvenegas.github.io/StarbucksPageClone',
-			largeTitle: false,
-		},
-		// BROKEN 👇 THIS ONES BROKENNN
-		{
-			id: 9,
-			title: 'Restaurant Page',
-			image: RestaurantLogo,
-			github: 'https://github.com/davidmvenegas/Burgerhouse',
-			link: 'https://davidmvenegas.github.io/Burgerhouse',
-			largeTitle: false,
-		},
-		{
-			id: 10,
-			title: 'Notes App',
-			image: NotesLogo,
-			github: 'https://github.com/davidmvenegas/NotesApp',
-			link: 'https://davidmvenegas.github.io/NotesApp',
-			largeTitle: false,
-		},
-		{
-			id: 11,
-			title: 'Password Generator',
-			image: PasswordLogo,
-			github: 'https://github.com/davidmvenegas/PasswordGenerator',
-			link: 'https://davidmvenegas.github.io/PasswordGenerator',
-			largeTitle: true,
-		},
-		// FIX FORMATING PLZZZ
-		{
-			id: 12,
-			title: 'New Years Timer',
-			image: NewYearsLogo,
-			github: 'https://github.com/davidmvenegas/JS-CountdownTimer',
-			link: 'https://davidmvenegas.github.io/JS-CountdownTimer',
-			largeTitle: false,
-		},
+		// {
+		// 	id: 8,
+		// 	title: 'Starbucks Page',
+		// 	image: StarbucksLogo,
+		// 	github: 'https://github.com/davidmvenegas/StarbucksPageClone',
+		// 	link: 'https://davidmvenegas.github.io/StarbucksPageClone',
+		// 	largeTitle: false,
+		// },
+		// // BROKEN 👇 THIS ONES BROKENNN
+		// {
+		// 	id: 9,
+		// 	title: 'Restaurant Page',
+		// 	image: RestaurantLogo,
+		// 	github: 'https://github.com/davidmvenegas/Burgerhouse',
+		// 	link: 'https://davidmvenegas.github.io/Burgerhouse',
+		// 	largeTitle: false,
+		// },
+		// {
+		// 	id: 10,
+		// 	title: 'Notes App',
+		// 	image: NotesLogo,
+		// 	github: 'https://github.com/davidmvenegas/NotesApp',
+		// 	link: 'https://davidmvenegas.github.io/NotesApp',
+		// 	largeTitle: false,
+		// },
+		// {
+		// 	id: 11,
+		// 	title: 'Password Generator',
+		// 	image: PasswordLogo,
+		// 	github: 'https://github.com/davidmvenegas/PasswordGenerator',
+		// 	link: 'https://davidmvenegas.github.io/PasswordGenerator',
+		// 	largeTitle: true,
+		// },
+		// // FIX FORMATING PLZZZ
+		// {
+		// 	id: 12,
+		// 	title: 'New Years Timer',
+		// 	image: NewYearsLogo,
+		// 	github: 'https://github.com/davidmvenegas/JS-CountdownTimer',
+		// 	link: 'https://davidmvenegas.github.io/JS-CountdownTimer',
+		// 	largeTitle: false,
+		// },
 	];
 	function handleOpenModal(id) {
 		setModalID(id);
@@ -240,7 +240,7 @@ function Work() {
 							</a>
 						</div>
 						<div className='port-text-box'>
-							<h1 className='port-title'>Bubble Gum Guessing Game</h1>
+							<h1 className='port-title'>BubbleGum3D</h1>
 							<a
 								className='port-title-site'
 								href='https://travis.lamberte.com/bubbleGum/index.html'
@@ -361,8 +361,8 @@ function Work() {
 								https://lambertedesign.com
 							</a>
 							<p className='port-headline'>
-								Track your income, set a budget and visualize your saving goals
-								with this personal finance tracker.
+								Boid AI Flocking Implementation in the food objects of this
+								classic snake game.
 							</p>
 							<div className='port-btn-box'>
 								<div

@@ -25,8 +25,9 @@ import GroceryMagixIcon from '../../Media/Images/portfolio-icons/GM.png';
 import TheFinancialTrackerIcon from '../../Media/Images/portfolio-icons/TFT.png';
 import MyCryptomaticIcon from '../../Media/Images/portfolio-icons/MC.png';
 import SnakeIcon from '../../Media/Images/portfolio-icons/SnakeIcon.png';
-import UnchaLogo from '../../Media/Images/portfolio-icons/UnchaLogo.png';
-import BubbleGumLogo from '../../Media/Images/portfolio-icons/BubbleGum.png';
+import UnchaIcon from '../../Media/Images/portfolio-icons/UnchaLogo.png';
+import BubbleGumIcon from '../../Media/Images/portfolio-icons/BubbleGum.png';
+import Tilt3DIcon from '../../Media/Images/portfolio-icons/Tilt3D.png';
 
 function Modal({ open, setOpenModal, modalID }) {
 	useEffect(() => {
@@ -38,7 +39,7 @@ function Modal({ open, setOpenModal, modalID }) {
 		{
 			id: 1,
 			title: 'BubbleGum3D',
-			logo: BubbleGumLogo,
+			logo: BubbleGumIcon,
 			desc: "Bubble Gum 3D is a State Fair Style number guessing game where you'll get your chance, to Guess the number of candies that are in the candy dish, is it 1... or 1000?! You won't know until you've guessed it!",
 			features: [
 				'3D Environment',
@@ -59,7 +60,7 @@ function Modal({ open, setOpenModal, modalID }) {
 		{
 			id: 2,
 			title: 'Tilt3D',
-			logo: GroceryMagixIcon,
+			logo: Tilt3DIcon,
 			desc: 'Tilt3D is a Jenga Style classic tumbling tower puzzle game built as a web application using JavaScript, HTML, and CSS. Test your skills today in this fully emmersive 3D environment.',
 			features: [
 				'Elegant Game UI',
@@ -75,7 +76,7 @@ function Modal({ open, setOpenModal, modalID }) {
 			link: 'https://travis.lamberte.com/tilt3dMenu/index.html',
 			url: 'https://travis.lamberte.com/tilt3dMenu/index.html',
 			github: 'https://github.com/seattletravis/Tilt3dSinglePlayer',
-			video: 'https://www.youtube.com/embed/hSSwnnRsiJE?si=MIRqNHnK6K6uZqTf',
+			video: 'https://www.youtube.com/embed/wysq6wtGybs?si=r7mV3gXtUJXqV0ci',
 		},
 		{
 			id: 3,
@@ -101,7 +102,7 @@ function Modal({ open, setOpenModal, modalID }) {
 		{
 			id: 4,
 			title: 'Uncha',
-			logo: UnchaLogo,
+			logo: UnchaIcon,
 			desc: "Uncha is a powerful Window's application for removing image backgrounds from all the pngs in a directory with a single click. Uncha uses multithreading for quick processing of png, tiff, and jpg files and is available for Window's, linux, and macOS operating systems.",
 			features: [
 				'Machine Learning Technology',
