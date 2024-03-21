@@ -31,6 +31,7 @@ import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
 
 // import UnchaImg from
 // Other Logos
+import ComingSoonLogo from '../Media/Images/other-work-icons/ComingSoonLogo.png';
 import OldSiteLogo from '../Media/Images/other-work-icons/OldSiteLogo.png';
 import TetrominosLogo from '../Media/Images/other-work-icons/Tetrominos.png';
 import OrbitsLogo from '../Media/Images/other-work-icons/OrbitsLogo.png';
@@ -134,7 +135,7 @@ function Work() {
 		{
 			id: 8,
 			title: 'More Coming Soon...',
-			image: StarbucksLogo,
+			image: ComingSoonLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://seattletravis.com',
 			largeTitle: false,
