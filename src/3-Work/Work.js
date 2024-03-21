@@ -7,18 +7,19 @@ import { BsArrowRight, BsBoxArrowUpRight } from 'react-icons/bs';
 import Modal from './Modal/Modal';
 import { useInView } from 'react-intersection-observer';
 // Main Logos
-import MySimpleWardrobeGif from '../Media/Gifs/MySimpleWardrobeGif.gif';
-import GroceryMagixGif from '../Media/Gifs/GroceryMagixGif.gif';
-import TheFinancialTrackerGif from '../Media/Gifs/TheFinanceTrackerGif.gif';
-import MyCryptomaticGif from '../Media/Gifs/MyCryptomaticGif.gif';
-import MySimpleWardrobeLogo from '../Media/Images/portfolio-logos/MySimpleWardrobeLogo.png';
-import GroceryMagixLogo from '../Media/Images/portfolio-logos/GroceryMagixLogo.png';
-import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancialTrackerLogo.png';
-import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
+// import MySimpleWardrobeGif from '../Media/Gifs/MySimpleWardrobeGif.gif';
+// import GroceryMagixGif from '../Media/Gifs/GroceryMagixGif.gif';
+// import TheFinancialTrackerGif from '../Media/Gifs/TheFinanceTrackerGif.gif';
+// import MyCryptomaticGif from '../Media/Gifs/MyCryptomaticGif.gif';
+// import MySimpleWardrobeLogo from '../Media/Images/portfolio-logos/MySimpleWardrobeLogo.png';
+// import GroceryMagixLogo from '../Media/Images/portfolio-logos/GroceryMagixLogo.png';
+// import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancialTrackerLogo.png';
+// import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
 //Feature GIF's
 import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
 import Tilt3DGif from '../Media/Gifs/Tilt3DGIF.gif';
+import BubbleGumGif from '../Media/Gifs/BubbleGumGIF.gif';
 // Feature Logos
 // import GumImg from '../Media/Images/projectImages/gum.png';
 // import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
@@ -217,7 +218,7 @@ function Work() {
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={BubbleGumImg}
+									src={BubbleGumGif}
 									alt='Bubble Gum Guessing Game'
 									style={port1 ? { opacity: '1' } : { opacity: '0' }}
 								/>

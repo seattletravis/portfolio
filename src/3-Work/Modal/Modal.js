@@ -22,6 +22,7 @@ import TheFinancialTrackerIcon from '../../Media/Images/portfolio-icons/TFT.png'
 import MyCryptomaticIcon from '../../Media/Images/portfolio-icons/MC.png';
 import SnakeIcon from '../../Media/Images/portfolio-icons/SnakeIcon.png';
 import UnchaLogo from '../../Media/Images/portfolio-icons/UnchaLogo.png';
+import BubbleGumLogo from '../../Media/Images/portfolio-icons/BubbleGum.png';
 
 function Modal({ open, setOpenModal, modalID }) {
 	useEffect(() => {
@@ -32,24 +33,24 @@ function Modal({ open, setOpenModal, modalID }) {
 	const modalData = [
 		{
 			id: 1,
-			title: 'My Simple Wardrobe.',
-			logo: MySimpleWardrobeIcon,
-			desc: 'My Simple Wardrobe™ is a fully functional eCommerce clothing store with Stripe™. Users can either checkout as a guest or sign up to add items to their wishlist, leave product reviews and see their order history. An admin panel allows for easy control of products and users.',
+			title: 'BubbleGum3D',
+			logo: BubbleGumLogo,
+			desc: "Bubble Gum 3D is a State Fair Style number guessing game where you'll get your chance, to Guess the number of candies that are in the candy dish, is it 1... or 1000?! You won't know until you've guessed it!",
 			features: [
-				'Guest checkout',
-				'Product review system',
-				'Personal order history',
-				'256-bit AES encryption',
+				'3D Environment',
+				'Elegant Game UI',
+				'Scoring and Gameplay mechanics',
+				'Physics Engine',
 			],
-			tools: [SiReact, SiRedux, SiNodedotjs, SiExpress, SiMongodb],
+			tools: [SiJavascript, SiHtml5, SiCss3],
 			technologies: {
-				frontend: 'React, Redux, Styled Components and CSS',
-				backend: 'Node, Express, MongoDB, Stripe, Firebase Storage',
+				frontend: 'JavaScript, HTML, CSS',
+				backend: 'ThreeJS, CannonES',
 			},
-			link: 'www.mysimplewardrobe.com',
-			url: 'https://www.mysimplewardrobe.com/',
-			github: 'https://github.com/davidmvenegas/my-simple-wardrobe',
-			video: 'https://www.youtube.com/embed/ZwveyK1Ag60',
+			link: 'https://travis.lamberte.com/bubbleGum/index.html',
+			url: 'https://travis.lamberte.com/bubbleGum/index.html',
+			github: 'https://github.com/seattletravis/bubblegum',
+			video: 'https://www.youtube.com/embed/PI22b1pHpeg?si=YK7E8b2spJlW4lMh',
 		},
 		{
 			id: 2,
