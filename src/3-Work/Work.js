@@ -31,6 +31,11 @@ import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
 
 // import UnchaImg from
 // Other Logos
+import OldSiteLogo from '../Media/Images/other-work-icons/OldSiteLogo.png';
+import TetrominosLogo from '../Media/Images/other-work-icons/Tetrominos.png';
+import OrbitsLogo from '../Media/Images/other-work-icons/OrbitsLogo.png';
+import BeemoLogo from '../Media/Images/other-work-icons/BeemoLogo.png';
+import UncleHawaiiLogo from '../Media/Images/other-work-icons/UncleHawaiiLogo.png';
 import PPortLogo from '../Media/Images/other-work-icons/seattletravisLogo.png';
 import TBGif from '../Media/Images/other-work-icons/TBGIFLogo.gif';
 import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
@@ -81,7 +86,7 @@ function Work() {
 		{
 			id: 6,
 			title: 'Apparel Shop',
-			image: RockPaperScissorsLogo,
+			image: UncleHawaiiLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://www.unclehawaii.com/',
 			largeTitle: true,
@@ -89,7 +94,7 @@ function Work() {
 		{
 			id: 2,
 			title: 'Beemo Date & Time',
-			image: BooklistLogo,
+			image: BeemoLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://travis.lamberte.com/clock/index.html',
 			largeTitle: false,
@@ -97,7 +102,7 @@ function Work() {
 		{
 			id: 3,
 			title: 'Orbits',
-			image: CoinFlipLogo,
+			image: OrbitsLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://travis.lamberte.com/orbit/index.html',
 			largeTitle: false,
@@ -113,7 +118,7 @@ function Work() {
 		{
 			id: 5,
 			title: 'Tetrominos',
-			image: CalculatorLogo,
+			image: TetrominosLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://travis.lamberte.com/tetromino/index.html',
 			largeTitle: false,
@@ -121,7 +126,7 @@ function Work() {
 		{
 			id: 7,
 			title: 'Old Website',
-			image: QuizLogo,
+			image: OldSiteLogo,
 			github: 'https://github.com/seattletravis',
 			link: 'https://travis.lamberte.com',
 			largeTitle: false,
@@ -134,7 +139,6 @@ function Work() {
 			link: 'https://seattletravis.com',
 			largeTitle: false,
 		},
-		// // BROKEN 👇 THIS ONES BROKENNN
 		// {
 		// 	id: 9,
 		// 	title: 'Restaurant Page',
