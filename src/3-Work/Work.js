@@ -31,6 +31,8 @@ import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
 
 // import UnchaImg from
 // Other Logos
+import PPortLogo from '../Media/Images/other-work-icons/seattletravisLogo.png';
+import TBGif from '../Media/Images/other-work-icons/TBGIFLogo.gif';
 import WeatherLogo from '../Media/Images/other-work-icons/WeatherAppLogo.png';
 import BooklistLogo from '../Media/Images/other-work-icons/MyBooklistLogo.png';
 import QuizLogo from '../Media/Images/other-work-icons/MiniQuizLogo.png';
@@ -71,7 +73,7 @@ function Work() {
 		{
 			id: 1,
 			title: 'Prev. Portfolio',
-			image: WeatherLogo,
+			image: PPortLogo,
 			github: 'https://github.com/seattletravis/seattletravis',
 			link: 'https://seattletravis.com',
 			largeTitle: false,
@@ -103,7 +105,7 @@ function Work() {
 		{
 			id: 4,
 			title: "90's Throwback",
-			image: TicTacToeLogo,
+			image: TBGif,
 			github: 'https://github.com/seattletravis',
 			link: 'https://travis.lamberte.com/throwback90s/index.html',
 			largeTitle: false,
@@ -124,14 +126,14 @@ function Work() {
 			link: 'https://travis.lamberte.com',
 			largeTitle: false,
 		},
-		// {
-		// 	id: 8,
-		// 	title: 'Starbucks Page',
-		// 	image: StarbucksLogo,
-		// 	github: 'https://github.com/davidmvenegas/StarbucksPageClone',
-		// 	link: 'https://davidmvenegas.github.io/StarbucksPageClone',
-		// 	largeTitle: false,
-		// },
+		{
+			id: 8,
+			title: 'More Coming Soon...',
+			image: StarbucksLogo,
+			github: 'https://github.com/seattletravis',
+			link: 'https://seattletravis.com',
+			largeTitle: false,
+		},
 		// // BROKEN 👇 THIS ONES BROKENNN
 		// {
 		// 	id: 9,
@@ -453,8 +455,8 @@ function Work() {
 					className='other-description'
 					ref={otherDescRef}
 					id={otherDescInView ? 'otherDesc-active' : undefined}>
-					A collection of a few other things I've built.{' '}
-					<span>Everything is fully mobile responsive.</span>
+					More of my projects.{' '}
+					{/* <span>Everything is fully mobile responsive.</span> */}
 				</p>
 				<div className='other-items'>
 					{otherData.map((data) => (
