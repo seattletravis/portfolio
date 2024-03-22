@@ -410,9 +410,6 @@ function Work() {
 					))}
 				</div>
 			</div>
-			{/* <div className="ending-work-this-wrapper">
-                <p className="ending-work-this"><span>*</span>I also built this website (www.davidmvenegas.com) from the ground up. You can follow it's progress <span><a href='https://github.com/davidmvenegas/Portfolio' target="_blank" rel="noreferrer">here</a></span>.</p>
-            </div> */}
 		</div>
 	);
 }
