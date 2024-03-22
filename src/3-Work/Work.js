@@ -37,7 +37,7 @@ import TetrominosLogo from '../Media/Images/other-work-icons/Tetrominos.png';
 import OrbitsLogo from '../Media/Images/other-work-icons/OrbitsLogo.png';
 import BeemoLogo from '../Media/Images/other-work-icons/BeemoLogo.png';
 import UncleHawaiiLogo from '../Media/Images/other-work-icons/UncleHawaiiLogo.png';
-import PPortLogo from '../Media/Images/other-work-icons/seattletravisLogo.png';
+import PPortLogo from '../Media/Images/other-work-icons/pprevLogo.png';
 import TBGif from '../Media/Images/other-work-icons/TBGIFLogo.gif';
 
 function Work() {
