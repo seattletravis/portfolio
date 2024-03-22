@@ -64,7 +64,7 @@ function Modal({ open, setOpenModal, modalID }) {
 			desc: 'Tilt3D is a Jenga Style classic tumbling tower puzzle game built as a web application using JavaScript, HTML, and CSS. Test your skills today in this fully emmersive 3D environment.',
 			features: [
 				'Elegant Game UI',
-				'Scoring and Game Win/Lose Mechanics',
+				'Scoring and Game Mechanics',
 				'3D Environment',
 				'Physics Engine',
 			],
