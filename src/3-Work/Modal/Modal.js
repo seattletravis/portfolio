@@ -20,10 +20,6 @@ import {
 	SiHtml5,
 	SiPython,
 } from 'react-icons/si';
-import MySimpleWardrobeIcon from '../../Media/Images/portfolio-icons/MSW.png';
-import GroceryMagixIcon from '../../Media/Images/portfolio-icons/GM.png';
-import TheFinancialTrackerIcon from '../../Media/Images/portfolio-icons/TFT.png';
-import MyCryptomaticIcon from '../../Media/Images/portfolio-icons/MC.png';
 import SnakeIcon from '../../Media/Images/portfolio-icons/SnakeIcon.png';
 import UnchaIcon from '../../Media/Images/portfolio-icons/UnchaLogo.png';
 import BubbleGumIcon from '../../Media/Images/portfolio-icons/BubbleGum.png';
