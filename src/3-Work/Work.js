@@ -401,8 +401,7 @@ function Work() {
 					className='other-description'
 					ref={otherDescRef}
 					id={otherDescInView ? 'otherDesc-active' : undefined}>
-					More of my projects.{' '}
-					{/* <span>Everything is fully mobile responsive.</span> */}
+					More of my projects.
 				</p>
 				<div className='other-items'>
 					{otherData.map((data) => (
