@@ -6,30 +6,16 @@ import { useNavigate } from 'react-router-dom';
 import { BsArrowRight, BsBoxArrowUpRight } from 'react-icons/bs';
 import Modal from './Modal/Modal';
 import { useInView } from 'react-intersection-observer';
-// Main Logos
-// import MySimpleWardrobeGif from '../Media/Gifs/MySimpleWardrobeGif.gif';
-// import GroceryMagixGif from '../Media/Gifs/GroceryMagixGif.gif';
-// import TheFinancialTrackerGif from '../Media/Gifs/TheFinanceTrackerGif.gif';
-// import MyCryptomaticGif from '../Media/Gifs/MyCryptomaticGif.gif';
-// import MySimpleWardrobeLogo from '../Media/Images/portfolio-logos/MySimpleWardrobeLogo.png';
-// import GroceryMagixLogo from '../Media/Images/portfolio-logos/GroceryMagixLogo.png';
-// import TheFinancialTrackerLogo from '../Media/Images/portfolio-logos/TheFinancialTrackerLogo.png';
-// import MyCryptomaticLogo from '../Media/Images/portfolio-logos/MyCryptomaticLogo.png';
 //Feature GIF's
 import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
 import Tilt3DGif from '../Media/Gifs/Tilt3DGIF.gif';
 import BubbleGumGif from '../Media/Gifs/BubbleGumGIF.gif';
 // Feature Logos
-// import GumImg from '../Media/Images/projectImages/gum.png';
-// import TiltImg from '../Media/Images/projectImages/tilt3d1.png';
-// import SnakeImg from '../Media/Images/projectImages/snakeLD.png';
 import BubbleGumImg from '../Media/Images/projectImages/BubbleGumIMG.png';
 import SnakeImg from '../Media/Images/projectImages/SnakeIMG.png';
 import UnchaImg from '../Media/Images/projectImages/UnchaIMG.png';
 import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
-
-// import UnchaImg from
 // Other Logos
 import ComingSoonLogo from '../Media/Images/other-work-icons/ComingSoonLogo.png';
 import OldSiteLogo from '../Media/Images/other-work-icons/OldSiteLogo.png';
@@ -128,39 +114,6 @@ function Work() {
 			link: 'https://seattletravis.com',
 			largeTitle: false,
 		},
-		// {
-		// 	id: 9,
-		// 	title: 'Restaurant Page',
-		// 	image: RestaurantLogo,
-		// 	github: 'https://github.com/davidmvenegas/Burgerhouse',
-		// 	link: 'https://davidmvenegas.github.io/Burgerhouse',
-		// 	largeTitle: false,
-		// },
-		// {
-		// 	id: 10,
-		// 	title: 'Notes App',
-		// 	image: NotesLogo,
-		// 	github: 'https://github.com/davidmvenegas/NotesApp',
-		// 	link: 'https://davidmvenegas.github.io/NotesApp',
-		// 	largeTitle: false,
-		// },
-		// {
-		// 	id: 11,
-		// 	title: 'Password Generator',
-		// 	image: PasswordLogo,
-		// 	github: 'https://github.com/davidmvenegas/PasswordGenerator',
-		// 	link: 'https://davidmvenegas.github.io/PasswordGenerator',
-		// 	largeTitle: true,
-		// },
-		// // FIX FORMATING PLZZZ
-		// {
-		// 	id: 12,
-		// 	title: 'New Years Timer',
-		// 	image: NewYearsLogo,
-		// 	github: 'https://github.com/davidmvenegas/JS-CountdownTimer',
-		// 	link: 'https://davidmvenegas.github.io/JS-CountdownTimer',
-		// 	largeTitle: false,
-		// },
 	];
 	function handleOpenModal(id) {
 		setModalID(id);
