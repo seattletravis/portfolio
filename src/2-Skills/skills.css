@@ -641,6 +641,7 @@
 		background-color: beige;
 	}
 	.cwu-img-wrapper {
+		margin-top: 1rem;
 		height: 25rem;
 		width: 35rem;
 		justify-content: center;
@@ -668,7 +669,8 @@
 		width: fit-content;
 		height: 5.5rem;
 		margin-top: 2rem;
-		margin-left: 3rem;
+		margin-left: 8rem;
+		margin-right: 8rem;
 		font-size: 0.85rem;
 		line-height: 1.25;
 	}
