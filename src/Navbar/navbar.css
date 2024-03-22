@@ -102,10 +102,10 @@
 	color: sienna;
 }
 .navbar-bottom {
-	margin: 5rem 0 5rem;
 	display: flex;
-	gap: 2rem;
-	margin-left: 6rem;
+	justify-content: center;
+	gap: 5rem;
+	margin-left: 2rem;
 	align-items: center;
 }
 .nav-icon {
@@ -157,26 +157,19 @@
 		margin: 10rem 0 5rem;
 		display: flex;
 		gap: 2rem;
-		/* margin-left: 6rem; */
 		align-items: center;
 		justify-content: center;
-		border: solid brown 3px;
 		width: 100%;
 	}
 	.nav-menu {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
-		/* flex-direction: column; */
 		flex-direction: column;
-
-		border: 3px green solid;
 		list-style: none;
 		text-align: center;
 		height: 100%;
 		width: 100%;
-		margin-top: 5rem;
 	}
 	.navbar-toggle-button {
 		position: fixed;
