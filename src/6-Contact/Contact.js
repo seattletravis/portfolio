@@ -119,7 +119,7 @@ function Contact() {
 				<div className='map-wrapper'>
 					<iframe
 						title='Contact Map'
-						src='https://snazzymaps.com/embed/370659'
+						// src='https://snazzymaps.com/embed/370659'
 						width='100%'
 						height='100%'
 						style={{ border: 'none' }}
