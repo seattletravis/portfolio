@@ -21,11 +21,17 @@ function Contact() {
 			backdrop: `rgba(0,0,0,0.5)`,
 		});
 		emailjs
+			// .sendForm(
+			// 	'service_p4e9t3x',
+			// 	'template_40qv28e',
+			// 	formRef.current,
+			// 	'user_Wr18txCeJipUS6ENtKUc0'
+			// )
 			.sendForm(
-				'service_p4e9t3x',
-				'template_40qv28e',
+				'service_ml7qr0i',
+				'template_zxtx3ce',
 				formRef.current,
-				'user_Wr18txCeJipUS6ENtKUc0'
+				'pwoYrrOuJTZwxPks8'
 			)
 			.then(e.target.reset())
 			.catch((error) => console.log(error.text));
@@ -34,7 +40,7 @@ function Contact() {
 		let clearPopup = setTimeout(() => setCopied(false), 1500);
 		copied && clearTimeout(clearPopup);
 		setCopied(true);
-		navigator.clipboard.writeText('david@venegas.com');
+		navigator.clipboard.writeText('travis@lamberte.com');
 	}
 
 	return (

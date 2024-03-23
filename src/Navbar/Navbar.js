@@ -50,14 +50,10 @@ function Navbar() {
 						onClick={() => handleLogoClick()}
 					/>
 					<h1>Travis Lamberte</h1>
-					{/* <p>Fullstack Developer</p> */}
 				</div>
 				<div>
 					<ul className='nav-menu'>
 						<li className='nav-item' onClick={() => closeNav()}>
-							{/* <NavLink to='/' activeClassName='active' className='nav-link'>
-								<h1 id='first-nav-link'>About</h1>
-							</NavLink> */}
 							<NavLink
 								to='/'
 								className={(navData) =>
@@ -67,12 +63,6 @@ function Navbar() {
 							</NavLink>
 						</li>
 						<li className='nav-item' onClick={() => closeNav()}>
-							{/* <NavLink
-								to='/skills'
-								activeClassName='active'
-								className='nav-link'>
-								<h1>My Skills</h1>
-							</NavLink> */}
 							<NavLink
 								to='/skills'
 								className={(navData) =>
@@ -82,12 +72,6 @@ function Navbar() {
 							</NavLink>
 						</li>
 						<li className='nav-item' onClick={() => closeNav()}>
-							{/* <NavLink
-								to='/projects'
-								activeClassName='active'
-								className='nav-link'>
-								<h1>Projects</h1>
-							</NavLink> */}
 							<NavLink
 								to='/projects'
 								className={(navData) =>
@@ -97,12 +81,6 @@ function Navbar() {
 							</NavLink>
 						</li>
 						<li className='nav-item' onClick={() => closeNav()}>
-							{/* <NavLink
-								to='/contact'
-								activeClassName='active'
-								className='nav-link'>
-								<h1>Contact</h1>
-							</NavLink> */}
 							<NavLink
 								to='/contact'
 								className={(navData) =>
