@@ -21,12 +21,6 @@ function Contact() {
 			backdrop: `rgba(0,0,0,0.5)`,
 		});
 		emailjs
-			// .sendForm(
-			// 	'service_p4e9t3x',
-			// 	'template_40qv28e',
-			// 	formRef.current,
-			// 	'user_Wr18txCeJipUS6ENtKUc0'
-			// )
 			.sendForm(
 				'service_ml7qr0i',
 				'template_zxtx3ce',
