@@ -55,15 +55,29 @@ function Navbar() {
 				<div>
 					<ul className='nav-menu'>
 						<li className='nav-item' onClick={() => closeNav()}>
-							<NavLink to='/' activeClassName='active' className='nav-link'>
+							{/* <NavLink to='/' activeClassName='active' className='nav-link'>
+								<h1 id='first-nav-link'>About</h1>
+							</NavLink> */}
+							<NavLink
+								to='/'
+								className={(navData) =>
+									navData.isActive ? 'active' : 'nav-link'
+								}>
 								<h1 id='first-nav-link'>About</h1>
 							</NavLink>
 						</li>
 						<li className='nav-item' onClick={() => closeNav()}>
-							<NavLink
+							{/* <NavLink
 								to='/skills'
 								activeClassName='active'
 								className='nav-link'>
+								<h1>My Skills</h1>
+							</NavLink> */}
+							<NavLink
+								to='/skills'
+								className={(navData) =>
+									navData.isActive ? 'active' : 'nav-link'
+								}>
 								<h1>My Skills</h1>
 							</NavLink>
 						</li>
