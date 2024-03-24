@@ -126,11 +126,6 @@ function Contact() {
 						height='100%'
 						style={{ border: 'none' }}
 					/>
-					{/* <iframe
-						src='https://snazzymaps.com/embed/589790'
-						width='100%'
-						height='100%'
-						style='border:none;'></iframe> */}
 				</div>
 			</div>
 		</div>
