@@ -92,7 +92,7 @@ function Contact() {
 					</button>
 				</form>
 				<div className='contact-aside contactForm7'>
-					<p id='contact-copy-top'>email me directly here:</p>
+					<p id='contact-copy-top'>email me directly:</p>
 					<div className='contact-copy-wrap'>
 						<div className='contact-copy-box'>
 							<VscCopy

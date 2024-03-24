@@ -122,14 +122,14 @@
 .contact-form input[type='text']::placeholder,
 .contact-form input[type='email']::placeholder,
 .contact-form textarea::placeholder {
-	color: whitesmoke;
+	color: sienna;
 }
 .contact-form input[type='text'],
 .contact-form input[type='email'] {
-	background: #2b2b2b;
+	background: beige;
 	height: 50px;
 	font-size: 16px;
-	color: whitesmoke;
+	color: sienna;
 	padding: 0 20px;
 	box-sizing: border-box;
 	border: 0;
@@ -157,9 +157,9 @@
 	min-height: 150px;
 	max-width: 100%;
 	max-height: 450px;
-	background: #2b2b2b;
+	background: beige;
 	font-size: 16px;
-	color: whitesmoke;
+	color: sienna;
 	padding: 20px;
 	box-sizing: border-box;
 	border: 0;
@@ -180,27 +180,9 @@
 .contact-item textarea:focus + .contact-after::after {
 	width: 100%;
 }
-/* .contact-form button {
-	position: relative;
-	display: block;
-	float: right;
-	clear: none;
-	margin-top: 2rem;
-	font-size: 14px;
-	letter-spacing: 4px;
-	height: 48px;
-	width: 200px;
-	background-color: transparent;
-	border: 1px solid black;
-	border-radius: 1vw;
-	color: black;
-	text-align: center;
-	cursor: pointer;
-	overflow: hidden;
-	transition: 0.4s ease-out all;
-} */
+
 .contact-form button {
-	font-weight: 700;
+	font-weight: 500;
 	position: relative;
 	display: block;
 	float: right;
@@ -209,32 +191,20 @@
 	letter-spacing: 4px;
 	height: 51.5px;
 	width: 215px;
-	background-color: transparent;
 	border: 1px solid black;
 	border-radius: 1vw;
-	color: black;
+	color: sienna;
 	text-align: center;
 	cursor: pointer;
 	overflow: hidden;
 	transition: 0.3s ease-out all;
 }
 .contact-form button:hover {
-	color: sienna;
+	color: black;
 }
-/* .contact-form button:after {
-	background: #fff;
-	content: '';
-	height: 200px;
-	left: -325px;
-	position: absolute;
-	top: -100px;
-	transform: rotate(-45deg);
-	transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-	width: 325px;
-	z-index: -10;
-} */
+
 .contact-form button:after {
-	background: beige;
+	background: tan;
 	color: sienna;
 	content: '';
 	height: 220px;
@@ -283,7 +253,7 @@
 }
 #contact-copy-email {
 	font-size: 2rem;
-	color: #bbb;
+	color: sienna;
 }
 .contact-popup {
 	position: absolute;
@@ -387,8 +357,9 @@
 .contactForm6 {
 	opacity: 0;
 	transform: translate3d(100%, 0, 0);
-	animation: contactSldRight 1s ease 1.25s forwards;
-	background-color: sienna;
+	animation: contactSldRight 1.25s ease 1.25s forwards;
+	background-color: beige;
+	color: sienna;
 }
 .contactForm6:hover {
 	background-color: sienna;
