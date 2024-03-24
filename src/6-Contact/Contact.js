@@ -21,12 +21,6 @@ function Contact() {
 			background: 'beige',
 			backdrop: `rgba(0,0,0,0.5)`,
 			confirmButtonColor: 'sienna',
-
-			// title: 'Your message has been sent',
-			// color: '#f5f5f5',
-			// icon: 'success',
-			// background: '#444',
-			// backdrop: `rgba(0,0,0,0.5)`,
 		});
 		emailjs
 			.sendForm(
