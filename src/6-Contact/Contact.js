@@ -15,10 +15,18 @@ function Contact() {
 		e.preventDefault();
 		Swal.fire({
 			title: 'Your message has been sent',
-			color: '#f5f5f5',
+			color: 'sienna',
 			icon: 'success',
-			background: '#444',
+			iconColor: 'sienna',
+			background: 'beige',
 			backdrop: `rgba(0,0,0,0.5)`,
+			confirmButtonColor: 'sienna',
+
+			// title: 'Your message has been sent',
+			// color: '#f5f5f5',
+			// icon: 'success',
+			// background: '#444',
+			// backdrop: `rgba(0,0,0,0.5)`,
 		});
 		emailjs
 			.sendForm(
