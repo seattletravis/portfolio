@@ -50,7 +50,7 @@ function Modal({ open, setOpenModal, modalID }) {
 			},
 			link: 'https://travis.lamberte.com/bubbleGum/index.html',
 			url: 'https://travis.lamberte.com/bubbleGum/index.html',
-			github: 'https://github.com/seattletravis/bubblegum',
+			github: 'https://github.com/seattletravis/bubblegum3d',
 			video: 'https://www.youtube.com/embed/PI22b1pHpeg?si=YK7E8b2spJlW4lMh',
 		},
 		{
