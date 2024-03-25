@@ -170,7 +170,7 @@ function About() {
 				<div className='about-right-title'>About</div>
 				<p className='about-right-description'>
 					I'm a software developer with strong computer programming fundamentals
-					and strong Full Stack Development skills. I'm great at problem solving
+					and strong full stack development skills. I'm great at problem solving
 					and technical communication. I have a solid background in IT
 					fundamentals that allows me a unique perspective on building out
 					software applications.
