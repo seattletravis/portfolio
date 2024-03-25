@@ -159,6 +159,7 @@ function Modal({ open, setOpenModal, modalID }) {
 						</div>
 						<div className='modal-links'>
 							<a
+								key={modalData.id}
 								className='modal-link1'
 								href={currentData?.url}
 								target='_blank'
