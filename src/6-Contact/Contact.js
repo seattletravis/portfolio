@@ -1,4 +1,5 @@
 import './contact.css';
+import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import { VscCopy } from 'react-icons/vsc';
 import emailjs from 'emailjs-com';
@@ -92,7 +93,7 @@ function Contact() {
 					</button>
 				</form>
 				<div className='contact-aside contactForm7'>
-					<p id='contact-copy-top'>email me directly:</p>
+					<p id='contact-copy-top'>email me directly at:</p>
 					<div className='contact-copy-wrap'>
 						<div className='contact-copy-box'>
 							<VscCopy
@@ -100,7 +101,13 @@ function Contact() {
 								onClick={() => handleCopy()}
 								id='contact-copy-icon'
 							/>
-							<p id='contact-copy-email'>travis@lamberte.com</p>
+							{/* <p id='contact-copy-email'>travis@lamberte.com</p> */}
+							<a
+								id='contact-copy-email'
+								href='mailto:travis@lamberte.com'
+								target='_blank'>
+								travis@lamberte.com
+							</a>
 						</div>
 						<div
 							className='contact-popup'
