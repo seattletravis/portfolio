@@ -136,8 +136,8 @@ function Modal({ open, setOpenModal, modalID }) {
 							src={currentData?.video}
 							title={currentData?.title}
 							// frameBorder='0'
-							allow='accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture'
-							allowFullScreen='allowfullscreen'></iframe>
+							// allowFullScreen='allowfullscreen'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture'></iframe>
 					</div>
 					<div className='modal-tech-wrapper'>
 						<h1>Expertise</h1>
@@ -159,7 +159,6 @@ function Modal({ open, setOpenModal, modalID }) {
 						</div>
 						<div className='modal-links'>
 							<a
-								key={modalData.id}
 								className='modal-link1'
 								href={currentData?.url}
 								target='_blank'
