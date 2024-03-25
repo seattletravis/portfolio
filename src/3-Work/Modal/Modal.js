@@ -3,20 +3,10 @@ import { useEffect, useState } from 'react';
 import { ImCross } from 'react-icons/im';
 import { FaGithub } from 'react-icons/fa';
 import {
-	SiLinux,
 	SiGithub,
 	SiVisualstudiocode,
-	SiReact,
-	SiRedux,
-	SiFirebase,
 	SiCss3,
-	SiNodedotjs,
-	SiExpress,
-	SiMongodb,
 	SiJavascript,
-	SiSass,
-	SiRubyonrails,
-	SiPostgresql,
 	SiHtml5,
 	SiPython,
 } from 'react-icons/si';
