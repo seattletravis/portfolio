@@ -59,7 +59,12 @@ function Contact() {
 					stack? Or, you want to meetup and talk about your latest project. I'm
 					ready to connect. Send me a message.
 				</p>
-				<form className='contact-form' ref={formRef} onSubmit={sendEmail}>
+				<form
+					className='contact-form'
+					// autoComplete='off'
+					autoComplete='false'
+					ref={formRef}
+					onSubmit={sendEmail}>
 					<ul>
 						<li className='contact-item contactForm2' id='contact-half-left'>
 							<input type='text' placeholder='Name' name='from_name' />

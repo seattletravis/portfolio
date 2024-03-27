@@ -277,7 +277,7 @@ function Skills() {
 						<div className='cert-text-box'>
 							<h1 className='cert-title'>Meta Front End Developer</h1>
 							<p>
-								The Meta Professional Certificate for Front End Software
+								Meta's Professional Certificate for Front End Software
 								Development.
 							</p>
 						</div>
