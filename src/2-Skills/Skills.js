@@ -219,6 +219,37 @@ function Skills() {
 						</div>
 					</div>
 					<div
+						ref={ed4Ref}
+						className='cert-item'
+						id={ed4InView ? 'cert3-active' : undefined}
+						onMouseEnter={() => setMouse3(true)}
+						onMouseLeave={() => setMouse3(false)}>
+						<a
+							href='https://coursera.org/share/bfee3098f1003fbd25b21aefa21720d5'
+							target='_blank'
+							rel='noreferrer'>
+							<div
+								className='cert-img-wrapper'
+								onMouseEnter={() => setMouse3(false)}
+								onMouseLeave={() => setMouse3(true)}>
+								<img
+									className='cert-img'
+									src={GoogleImg}
+									alt='Comptia Security +'
+								/>
+								<GiClick id={mouse3 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<div className='cert-img-hover-box'>
+									<h1>View certificate</h1>
+									<BsBoxArrowUpRight id='cert-arrow' />
+								</div>
+							</div>
+						</a>
+						<div className='cert-text-box'>
+							<h1 className='cert-title'>Google IT Support</h1>
+							<p>Google's Professional certificate for IT professionals.</p>
+						</div>
+					</div>
+					<div
 						ref={ed2Ref}
 						className='cert-item'
 						id={ed2InView ? 'cert2-active' : undefined}
