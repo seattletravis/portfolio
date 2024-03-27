@@ -11,6 +11,7 @@ import DjangoImg from '../Media/Images/skills/Django.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
+import IBMImg from '../Media/Images/IBM_logo.png';
 import FlatironCert from '../Media/Images/flatiron_cert.png';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { useInView } from 'react-intersection-observer';
@@ -221,11 +222,11 @@ function Skills() {
 					<div
 						ref={ed4Ref}
 						className='cert-item'
-						id={ed4InView ? 'cert3-active' : undefined}
+						id={ed4InView ? 'cert4-active' : undefined}
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
-							href='https://coursera.org/share/bfee3098f1003fbd25b21aefa21720d5'
+							href='https://coursera.org/share/34ab8ef980310c57f4d4d43d36812291'
 							target='_blank'
 							rel='noreferrer'>
 							<div
@@ -234,8 +235,8 @@ function Skills() {
 								onMouseLeave={() => setMouse3(true)}>
 								<img
 									className='cert-img'
-									src={GoogleImg}
-									alt='Comptia Security +'
+									src={IBMImg}
+									alt='IMB Full Stack Developer Certification'
 								/>
 								<GiClick id={mouse3 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
@@ -245,8 +246,10 @@ function Skills() {
 							</div>
 						</a>
 						<div className='cert-text-box'>
-							<h1 className='cert-title'>Google IT Support</h1>
-							<p>Google's Professional certificate for IT professionals.</p>
+							<h1 className='cert-title'>IBM Full Stack Developer</h1>
+							<p>
+								The IBM Professional certification for Full Stack Developers.
+							</p>
 						</div>
 					</div>
 					<div
