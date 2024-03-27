@@ -61,8 +61,7 @@ function Contact() {
 				</p>
 				<form
 					className='contact-form'
-					// autoComplete='off'
-					autoComplete='false'
+					autoComplete='off'
 					ref={formRef}
 					onSubmit={sendEmail}>
 					<ul>
