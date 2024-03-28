@@ -12,7 +12,7 @@ import CWUImg from '../Media/Images/cwu_logo.png';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
 import IBMImg from '../Media/Images/IBM_logo.png';
-import FlatironCert from '../Media/Images/flatiron_cert.png';
+import cwuDiploma from '../Media/Images/cwuDiploma.png';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { useInView } from 'react-intersection-observer';
 
@@ -178,8 +178,8 @@ function Skills() {
 								/>
 								<img
 									className='cwu-img'
-									src={FlatironCert}
-									alt='Flatiron'
+									src={cwuDiploma}
+									alt='CWU School of Science'
 									style={cert ? { opacity: '1' } : { opacity: '0' }}
 								/>
 							</div>
