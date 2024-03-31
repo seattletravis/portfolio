@@ -1,5 +1,5 @@
 // import { Fragment } from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import About from './1-About/About';
 import Skills from './2-Skills/Skills';
@@ -9,7 +9,7 @@ import Layout from './4-Layout/Layout';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Layout />} />
@@ -19,7 +19,7 @@ function App() {
 				<Route path='/contact' element={<Contact />} />
 				<Route path='*' element={<About />} />
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 
 		// <Fragment>
 		// 	<Navbar />
