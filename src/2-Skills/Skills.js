@@ -237,7 +237,7 @@ function Skills() {
 								</ul>
 							</div>
 							<p>
-								Conducted undergrasuate research on C60 Buckminsterfullerene
+								Conducted undergraduate research on C60 Buckminsterfullerene
 								nanoparticles and their toxicity on biological systems. Research
 								included imaging nanoparticles using scanning tunneling
 								microscopy.
