@@ -124,13 +124,13 @@ function Skills() {
 					<h1 className='skills-title'>Computer Programming</h1>
 					<div className='skills-content'>
 						<div id='NodeSkill' className='skills-item'>
-							<img src={NodeImg} alt='Node JS' />
+							<img src={NodeImg} alt='Go' />
 							<h2>Go</h2>
 							<p>Proficient Go Developer.</p>
 						</div>
 						<div id='SQLSkill' className='skillSeparator'></div>
 						<div id='SQLSkill' className='skills-item'>
-							<img src={SQLImg} alt='SQL' />
+							<img src={SQLImg} alt='Python' />
 							<h2>Python</h2>
 							<p>Strong Python skills and data structure fundamentals.</p>
 						</div>
