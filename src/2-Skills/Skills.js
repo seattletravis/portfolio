@@ -120,7 +120,32 @@ function Skills() {
 						</div>
 					</div>
 				</div>
+				<div className='skills-box'>
+					<h1 className='skills-title'>Computer Programming</h1>
+					<div className='skills-content'>
+						<div id='NodeSkill' className='skills-item'>
+							<img src={NodeImg} alt='Node JS' />
+							<h2>Go</h2>
+							<p>Proficient Go Developer.</p>
+						</div>
+						<div id='SQLSkill' className='skillSeparator'></div>
+						<div id='SQLSkill' className='skills-item'>
+							<img src={SQLImg} alt='SQL' />
+							<h2>Python</h2>
+							<p>Strong Python skills and data structure fundamentals.</p>
+						</div>
+						<div
+							id='DjangoSkill'
+							className='skillSeparator hiddenSkillSeparator'></div>
+						<div id='DjangoSkill' className='skills-item responsiveSkillsItem1'>
+							<img src={DjangoImg} alt='Django' />
+							<h2>Java</h2>
+							<p>Functional Java Skills</p>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<div
 				className='education-separator'
 				ref={edSepRef}
