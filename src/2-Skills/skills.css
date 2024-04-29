@@ -165,15 +165,15 @@
 	border-radius: 1rem;
 }
 #GoSkill {
-	animation: skilsBoxFade 1s ease 3.75s forwards;
+	animation: skilsBoxFade 1s ease 3.5s forwards;
 	opacity: 0;
 }
 #PythonSkill {
-	animation: skilsBoxFade 1s ease 4.25s forwards;
+	animation: skilsBoxFade 1s ease 4s forwards;
 	opacity: 0;
 }
 #JavaSkill {
-	animation: skilsBoxFade 1s ease 4.75s forwards;
+	animation: skilsBoxFade 1s ease 4.5s forwards;
 	opacity: 0;
 }
 
