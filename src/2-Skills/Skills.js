@@ -124,7 +124,7 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-box'>
-					<h1 className='skills-title'>Computer Programming</h1>
+					<h1 className='skills-title'>Programming</h1>
 					<div className='skills-content'>
 						<div id='GoSkill' className='skills-item'>
 							<img src={GoImg} alt='Go' />
