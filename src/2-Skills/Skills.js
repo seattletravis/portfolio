@@ -8,6 +8,9 @@ import CSSImg from '../Media/Images/skills/css.png';
 import NodeImg from '../Media/Images/skills/node.png';
 import SQLImg from '../Media/Images/skills/sql.png';
 import DjangoImg from '../Media/Images/skills/Django.png';
+import GoImg from '../Media/Images/skills/go.png';
+import PythonImg from '../Media/Images/skills/python.png';
+import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
@@ -123,22 +126,22 @@ function Skills() {
 				<div className='skills-box'>
 					<h1 className='skills-title'>Computer Programming</h1>
 					<div className='skills-content'>
-						<div id='NodeSkill' className='skills-item'>
-							<img src={NodeImg} alt='Go' />
-							<h2>Go</h2>
+						<div id='GoSkill' className='skills-item'>
+							<img src={GoImg} alt='Go' />
+							<h2>Golang</h2>
 							<p>Proficient Go Developer.</p>
 						</div>
-						<div id='SQLSkill' className='skillSeparator'></div>
-						<div id='SQLSkill' className='skills-item'>
-							<img src={SQLImg} alt='Python' />
+						<div id='PythonSkill' className='skillSeparator'></div>
+						<div id='PythonSkill' className='skills-item'>
+							<img src={PythonImg} alt='Python' />
 							<h2>Python</h2>
 							<p>Strong Python skills and data structure fundamentals.</p>
 						</div>
 						<div
-							id='DjangoSkill'
+							id='JavaSkill'
 							className='skillSeparator hiddenSkillSeparator'></div>
-						<div id='DjangoSkill' className='skills-item responsiveSkillsItem1'>
-							<img src={DjangoImg} alt='Django' />
+						<div id='JavaSkill' className='skills-item responsiveSkillsItem1'>
+							<img src={JavaImg} alt='Java' />
 							<h2>Java</h2>
 							<p>Functional Java Skills</p>
 						</div>

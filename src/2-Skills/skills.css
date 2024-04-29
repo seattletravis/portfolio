@@ -138,10 +138,6 @@
 	animation: skilsBoxFade 1s ease 0.75s forwards;
 	opacity: 0;
 }
-/* #ReduxSkill {
-	animation: skilsBoxFade 1s ease 1.25s forwards;
-	opacity: 0;
-} */
 #JavascriptSkill {
 	animation: skilsBoxFade 1s ease 1.25s forwards;
 	opacity: 0;
@@ -149,10 +145,6 @@
 #JavascriptSkill img {
 	border-radius: 1rem;
 }
-/* #RubySkill {
-	animation: skilsBoxFade 1s ease 2.25s forwards;
-	opacity: 0;
-} */
 #CSSSkill {
 	animation: skilsBoxFade 1s ease 1.75s forwards;
 	opacity: 0;
@@ -161,10 +153,6 @@
 	animation: skilsBoxFade 1s ease 2.25s forwards;
 	opacity: 0;
 }
-/* #MongoDBSkill {
-	animation: skilsBoxFade 1s ease 1.25s forwards;
-	opacity: 0;
-} */
 #SQLSkill {
 	animation: skilsBoxFade 1s ease 2.75s forwards;
 	opacity: 0;
@@ -176,10 +164,18 @@
 #DjangoSkill img {
 	border-radius: 1rem;
 }
-/* #FirebaseSkill {
-	animation: skilsBoxFade 1s ease 2.75s forwards;
+#GoSkill {
+	animation: skilsBoxFade 1s ease 3.75s forwards;
 	opacity: 0;
-} */
+}
+#PythonSkill {
+	animation: skilsBoxFade 1s ease 4.25s forwards;
+	opacity: 0;
+}
+#JavaSkill {
+	animation: skilsBoxFade 1s ease 4.75s forwards;
+	opacity: 0;
+}
 
 .education-separator {
 	width: 0;
