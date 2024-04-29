@@ -68,7 +68,7 @@ function Navbar() {
 								className={(navData) =>
 									navData.isActive ? 'active' : 'nav-link'
 								}>
-								<h1>My Skills</h1>
+								<h1>Skills</h1>
 							</NavLink>
 						</li>
 						<li className='nav-item' onClick={() => closeNav()}>
