@@ -484,7 +484,7 @@
 		font-size: 5.25rem;
 	}
 	.port-gif {
-		margin-top: 1rem;
+		margin-top: 0.1rem;
 		border-top-right-radius: 0.5rem;
 		border-bottom-right-radius: 0.5rem;
 	}
@@ -538,10 +538,10 @@
 		background-color: transparent;
 	}
 	.port-gif-box {
-		height: 20rem;
+		height: 21rem;
 	}
 	.port-gif-wrapper {
-		height: 20rem;
+		height: 21rem;
 	}
 	.port-gif {
 		right: 0;
