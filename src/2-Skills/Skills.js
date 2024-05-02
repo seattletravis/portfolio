@@ -131,14 +131,14 @@ function Skills() {
 							<h2>Golang</h2>
 							<p>Proficient Go Developer.</p>
 						</div>
-						<div id='PythonSkill' className='skillSeparator'></div>
+						<div id='GoSkill' className='skillSeparator'></div>
 						<div id='PythonSkill' className='skills-item'>
 							<img src={PythonImg} alt='Python' />
 							<h2>Python</h2>
 							<p>Strong Python skills and data structure fundamentals.</p>
 						</div>
 						<div
-							id='JavaSkill'
+							id='PythonSkill'
 							className='skillSeparator hiddenSkillSeparator'></div>
 						<div id='JavaSkill' className='skills-item responsiveSkillsItem1'>
 							<img src={JavaImg} alt='Java' />
