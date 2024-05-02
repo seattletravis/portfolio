@@ -139,7 +139,7 @@ function About() {
 						</span>
 					</h1>
 					<p className='about-left-description'>
-						Software Developer / Strong Technical Communication Skills
+						Strong Technical Communication Skills
 					</p>
 					<div className='about-left-button-box'>
 						<button
