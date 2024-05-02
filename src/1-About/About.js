@@ -182,9 +182,9 @@ function About() {
 						myself with{' '}
 						<span onClick={() => navigate('/projects')}>projects</span>
 						&nbsp; that require me to become a better programmer.
-						<br />
+						{/* <br />
 						<br />I strive to find a place to work where I can utilize my skills
-						and become a better programmer.
+						and become a better programmer. */}
 					</p>
 				</div>
 			</div>
