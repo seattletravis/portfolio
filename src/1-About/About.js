@@ -185,7 +185,7 @@ function About() {
 						<br />
 						<br />I enjoy getting out to any coding meetups in Seattle area, and
 						regularly chatting with my friends on Linkedin. Let's connect and
-						start a co!
+						start a conversation!
 					</p>
 				</div>
 			</div>

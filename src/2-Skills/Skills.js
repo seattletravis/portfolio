@@ -276,7 +276,7 @@ function Skills() {
 						<div className='cert-text-box'>
 							<h1 className='cert-title'>IBM Full Stack Developer</h1>
 							<p>
-								The IBM Professional certification for Full Stack Developers.
+								The IBM Professional Certification for Full Stack Developers.
 							</p>
 						</div>
 					</div>
@@ -338,7 +338,7 @@ function Skills() {
 						</a>
 						<div className='cert-text-box'>
 							<h1 className='cert-title'>Google IT Support</h1>
-							<p>Google's Professional certificate for IT professionals.</p>
+							<p>Google's Professional Certificate for IT professionals.</p>
 						</div>
 					</div>
 				</div>
