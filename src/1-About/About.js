@@ -184,7 +184,8 @@ function About() {
 						&nbsp; that require me to become a better programmer.
 						<br />
 						<br />I enjoy getting out to any coding meetups in Seattle area, and
-						regularly chatting with my friends on Linkedin. Let's connect!
+						regularly chatting with my friends on Linkedin. Let's connect and
+						start a co!
 					</p>
 				</div>
 			</div>
