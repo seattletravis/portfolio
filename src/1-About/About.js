@@ -14,127 +14,127 @@ function About() {
 			<div className='about-container'>
 				<div className='about-left-box'>
 					<h1 className='about-left-title'>
-						<span id='letterHi' Class='easeInOut'>
+						<span id='letterHi' className='easeInOut'>
 							H
 						</span>
-						<span id='letterhI' Class='easeInOut'>
+						<span id='letterhI' className='easeInOut'>
 							i
 						</span>
-						<span id='letterComma' Class='easeInOut'>
+						<span id='letterComma' className='easeInOut'>
 							!
 						</span>
 						<br />
 						{/* <br /> */}
-						<span id='letterIm' Class='easeInOut'>
+						<span id='letterIm' className='easeInOut'>
 							I
 						</span>
-						<span id='letterApos' Class='easeInOut'>
+						<span id='letterApos' className='easeInOut'>
 							'
 						</span>
-						<span id='letteriM' Class='easeInOut'>
+						<span id='letteriM' className='easeInOut'>
 							m
 						</span>
 						&nbsp;
-						<span id='letterTravis' Class='easeInOut'>
+						<span id='letterTravis' className='easeInOut'>
 							T
 						</span>
-						<span id='lettertRavis' Class='easeInOut'>
+						<span id='lettertRavis' className='easeInOut'>
 							r
 						</span>
-						<span id='lettertrAvis' Class='easeInOut'>
+						<span id='lettertrAvis' className='easeInOut'>
 							a
 						</span>
-						<span id='lettertraVis' Class='easeInOut'>
+						<span id='lettertraVis' className='easeInOut'>
 							v
 						</span>
-						<span id='lettertravIs' Class='easeInOut'>
+						<span id='lettertravIs' className='easeInOut'>
 							i
 						</span>
-						<span id='lettertraviS' Class='easeInOut'>
+						<span id='lettertraviS' className='easeInOut'>
 							s
 						</span>
-						<span id='lettertravisComma' Class='easeInOut'>
+						<span id='lettertravisComma' className='easeInOut'>
 							,
 						</span>
 						<br />
-						<span id='letterFullstack' Class='easeInOut'>
+						<span id='letterFullstack' className='easeInOut'>
 							F
 						</span>
-						<span id='letterfUllstack' Class='easeInOut'>
+						<span id='letterfUllstack' className='easeInOut'>
 							u
 						</span>
-						<span id='letterfuLlstack' Class='easeInOut'>
+						<span id='letterfuLlstack' className='easeInOut'>
 							l
 						</span>
-						<span id='letterfulLstack' Class='easeInOut'>
+						<span id='letterfulLstack' className='easeInOut'>
 							l
 						</span>
-						<span id='letterfullStack' Class='easeInOut'>
+						<span id='letterfullStack' className='easeInOut'>
 							s
 						</span>
-						<span id='letterfullsTack' Class='easeInOut'>
+						<span id='letterfullsTack' className='easeInOut'>
 							t
 						</span>
-						<span id='letterfullstAck' Class='easeInOut'>
+						<span id='letterfullstAck' className='easeInOut'>
 							a
 						</span>
-						<span id='letterfullstaCk' Class='easeInOut'>
+						<span id='letterfullstaCk' className='easeInOut'>
 							c
 						</span>
-						<span id='letterfullstacK' Class='easeInOut'>
+						<span id='letterfullstacK' className='easeInOut'>
 							k
 						</span>
 						&nbsp;
-						<span id='letterSoftware' Class='easeInOut'>
+						<span id='letterSoftware' className='easeInOut'>
 							S
 						</span>
-						<span id='lettersOftware' Class='easeInOut'>
+						<span id='lettersOftware' className='easeInOut'>
 							o
 						</span>
-						<span id='lettersoFtware' Class='easeInOut'>
+						<span id='lettersoFtware' className='easeInOut'>
 							f
 						</span>
-						<span id='lettersofTware' Class='easeInOut'>
+						<span id='lettersofTware' className='easeInOut'>
 							t
 						</span>
-						<span id='lettersoftWare' Class='easeInOut'>
+						<span id='lettersoftWare' className='easeInOut'>
 							w
 						</span>
-						<span id='lettersoftwAre' Class='easeInOut'>
+						<span id='lettersoftwAre' className='easeInOut'>
 							a
 						</span>
-						<span id='lettersoftwaRe' Class='easeInOut'>
+						<span id='lettersoftwaRe' className='easeInOut'>
 							r
 						</span>
-						<span id='lettersoftwarE' Class='easeInOut'>
+						<span id='lettersoftwarE' className='easeInOut'>
 							e
 						</span>
 						<br />
-						<span id='letterDeveloper' Class='easeInOut'>
+						<span id='letterDeveloper' className='easeInOut'>
 							D
 						</span>
-						<span id='letterdEveloper' Class='easeInOut'>
+						<span id='letterdEveloper' className='easeInOut'>
 							e
 						</span>
-						<span id='letterdeVeloper' Class='easeInOut'>
+						<span id='letterdeVeloper' className='easeInOut'>
 							v
 						</span>
-						<span id='letterdevEloper' Class='easeInOut'>
+						<span id='letterdevEloper' className='easeInOut'>
 							e
 						</span>
-						<span id='letterdeveLoper' Class='easeInOut'>
+						<span id='letterdeveLoper' className='easeInOut'>
 							l
 						</span>
-						<span id='letterdevelOper' Class='easeInOut'>
+						<span id='letterdevelOper' className='easeInOut'>
 							o
 						</span>
-						<span id='letterdeveloPer' Class='easeInOut'>
+						<span id='letterdeveloPer' className='easeInOut'>
 							p
 						</span>
-						<span id='letterdevelopEr' Class='easeInOut'>
+						<span id='letterdevelopEr' className='easeInOut'>
 							e
 						</span>
-						<span id='letterdevelopeR' Class='easeInOut'>
+						<span id='letterdevelopeR' className='easeInOut'>
 							r
 						</span>
 					</h1>
