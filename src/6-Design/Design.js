@@ -3,7 +3,8 @@ import './design.css';
 function Design() {
 	return (
 		<>
-			<h1>Hello</h1>
+			<div className='design'>Hello</div>;
+			<p>This is something that should show up</p>
 		</>
 	);
 }
