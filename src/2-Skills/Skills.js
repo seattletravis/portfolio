@@ -62,7 +62,7 @@ function Skills() {
 					<span>s</span>
 					<span>e</span>
 				</h1>
-				<p className='skills-description'>
+				<div className='skills-description'>
 					<TypeWriterEffect
 						startDelay={1000}
 						cursorColor='white'
@@ -70,7 +70,7 @@ function Skills() {
 						typeSpeed={35}
 						hideCursorAfterText={true}
 					/>
-				</p>
+				</div>
 				<div className='skills-box'>
 					<h1 className='skills-title'>Frontend</h1>
 					<div className='skills-content'>
