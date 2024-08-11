@@ -12,12 +12,22 @@ export default function BinaryClassic() {
 			const hour = dateObject.getHours();
 			const minute = dateObject.getMinutes();
 			const second = dateObject.getSeconds();
-			let hourInBinary = hour.toString(2).padStart(4, '0');
+
+			let meridian = hour <= 12 ? 'AM' : 'PM';
+			let modifiedHour = hour <= 12 ? hour : hour - 12;
+
+			let hourInBinary = modifiedHour.toString(2).padStart(4, '0');
 			let minuteInBinary = minute.toString(2).padStart(6, '0');
 			let secondInBinary = second.toString(2).padStart(6, '0');
 
 			const currentTime =
-				hourInBinary + ' : ' + minuteInBinary + ' : ' + secondInBinary;
+				hourInBinary +
+				' : ' +
+				minuteInBinary +
+				' : ' +
+				secondInBinary +
+				' ' +
+				meridian;
 
 			setTime(currentTime);
 		}, 1000);
