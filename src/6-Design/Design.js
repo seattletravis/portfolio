@@ -1,12 +1,23 @@
 import './design.css';
 
-function Design() {
-	return (
-		<>
-			<div className='design'>Hello</div>;
-			<p>This is something that should show up</p>
-		</>
-	);
-}
+import { useEffect, useState } from 'react';
 
-export default Design;
+export default function Design() {
+	const [time, setTime] = useState();
+
+	useEffect(() => {
+		setInterval(() => {
+			const dateObject = new Date();
+
+			const hour = dateObject.getHours();
+			const minute = dateObject.getMinutes();
+			const second = dateObject.getSeconds();
+
+			const currentTime = hour + ' : ' + minute + ' : ' + second;
+
+			setTime(currentTime);
+		}, 1000);
+	}, []);
+
+	return <div className='design'>{time}</div>;
+}
