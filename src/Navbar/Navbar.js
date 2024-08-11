@@ -21,7 +21,7 @@ function Navbar() {
 	}
 	return (
 		<Fragment>
-			<p
+			<div
 				className='navbar-toggle-button'
 				onClick={() => setNavActive(!navActive)}>
 				<span
@@ -36,7 +36,7 @@ function Navbar() {
 					className={
 						navActive ? 'navbar-line navActive' : 'navbar-line'
 					}></span>
-			</p>
+			</div>
 			<div
 				className={
 					navActive ? 'navbar-container navActive' : 'navbar-container'
