@@ -1,9 +1,11 @@
 .BinaryClassic {
 	font-family: 'Courier New', Courier, monospace;
-	margin-top: 175px;
-	font-size: 100px;
+	margin-top: 40vh;
+	margin: 40vh 5vw 5vw 5vw;
+	font-size: 50px;
 	color: black;
 	padding: 100px;
-	border: 30px solid black;
+	border: 10px solid black;
+	border-radius: 0px 40px 40px 40px;
 	text-align: center;
 }

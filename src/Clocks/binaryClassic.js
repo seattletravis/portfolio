@@ -20,7 +20,7 @@ export default function BinaryClassic() {
 			let minuteInBinary = minute.toString(2).padStart(6, '0');
 			let secondInBinary = second.toString(2).padStart(6, '0');
 
-			const currentTime =
+			const currentTimeBinary =
 				hourInBinary +
 				' : ' +
 				minuteInBinary +
@@ -29,7 +29,7 @@ export default function BinaryClassic() {
 				' ' +
 				meridian;
 
-			setTime(currentTime);
+			setTime(currentTimeBinary);
 		}, 1000);
 	}, []);
 
