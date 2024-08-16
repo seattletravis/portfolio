@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 export default function BinaryClassic() {
 	const [timeBinary, setTimeBinary] = useState();
+	const [timeDecimal, setTimeDecimal] = useState();
 
 	useEffect(() => {
 		setInterval(() => {
@@ -20,6 +21,16 @@ export default function BinaryClassic() {
 			let minuteInDecimal = minute.toString().padStart(2, '0');
 			let secondInDecimal = minute.toString().padStart(2, '0');
 
+			const currentTimeDecimal =
+				hourInDecimal +
+				' : ' +
+				minuteInDecimal +
+				' : ' +
+				secondInDecimal +
+				' ' +
+				meridian;
+
+			setTimeDecimal(currentTimeDecimal);
 			// Binary clock here
 			let hourInBinary = modifiedHour.toString(2).padStart(4, '0');
 			let minuteInBinary = minute.toString(2).padStart(6, '0');
@@ -38,5 +49,10 @@ export default function BinaryClassic() {
 		}, 1000);
 	}, []);
 
-	return <div className='BinaryClassic'>{timeBinary}</div>;
+	return (
+		<div>
+			<div className='DecimalTime'>{timeDecimal}</div>
+			<div className='BinaryTime'>{timeBinary}</div>;
+		</div>
+	);
 }
