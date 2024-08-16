@@ -1,20 +1,27 @@
+body {
+	background-color: antiquewhite;
+}
+
 .DecimalTime {
 	font-family: 'Courier New', Courier, monospace;
-	margin-top: 180px;
-	/* margin: 40vh 5vw 5vw 5vw; */
-	font-size: 50px;
+	margin-top: 200px;
+	background-color: aqua;
+	width: 40vw;
+	height: 10vw;
+	font-size: 3vw;
 	color: black;
-	padding: 100px;
+	/* padding: 5px; */
 	border: 10px solid black;
-	border-radius: 0px 40px 40px 40px;
+	border-radius: 40px 40px 0px 0px;
 	text-align: center;
 }
 
 .BinaryTime {
 	font-family: 'Courier New', Courier, monospace;
-	margin-top: 40vh;
-	margin: 40vh 5vw 5vw 5vw;
-	font-size: 50px;
+	background-color: green;
+	/* margin-top: 40vh; */
+	/* margin: 40vh 5vw 5vw 5vw; */
+	font-size: 4vw;
 	color: black;
 	padding: 100px;
 	border: 10px solid black;
