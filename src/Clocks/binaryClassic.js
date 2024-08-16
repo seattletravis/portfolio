@@ -19,18 +19,13 @@ export default function BinaryClassic() {
 			// Decimal clock here
 			let hourInDecimal = modifiedHour.toString().padStart(2, '0');
 			let minuteInDecimal = minute.toString().padStart(2, '0');
-			let secondInDecimal = minute.toString().padStart(2, '0');
+			let secondInDecimal = second.toString().padStart(2, '0');
 
 			const currentTimeDecimal =
-				hourInDecimal +
-				' : ' +
-				minuteInDecimal +
-				' : ' +
-				secondInDecimal +
-				' ' +
-				meridian;
+				hourInDecimal + ' : ' + minuteInDecimal + ' : ' + secondInDecimal;
 
 			setTimeDecimal(currentTimeDecimal);
+
 			// Binary clock here
 			let hourInBinary = modifiedHour.toString(2).padStart(4, '0');
 			let minuteInBinary = minute.toString(2).padStart(6, '0');

@@ -7,11 +7,12 @@ body {
 	margin-top: 200px;
 	background-color: aqua;
 	width: 40vw;
-	height: 10vw;
+	/* height: 10vw; */
+	/* padding-top: 3vw; */
+	padding: 50px;
 	font-size: 3vw;
 	color: black;
-	/* padding: 5px; */
-	border: 10px solid black;
+	border: 5px solid black;
 	border-radius: 40px 40px 0px 0px;
 	text-align: center;
 }
@@ -19,12 +20,10 @@ body {
 .BinaryTime {
 	font-family: 'Courier New', Courier, monospace;
 	background-color: green;
-	/* margin-top: 40vh; */
-	/* margin: 40vh 5vw 5vw 5vw; */
 	font-size: 4vw;
 	color: black;
-	padding: 100px;
-	border: 10px solid black;
+	padding: 30px;
+	border: 5px solid black;
 	border-radius: 0px 40px 40px 40px;
 	text-align: center;
 }
