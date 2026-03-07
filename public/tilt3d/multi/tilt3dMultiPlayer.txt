@@ -1,10 +1,13 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import * as CANNON from 'https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js';
-
-import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.js';
-import { Flip } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/Flip.js';
-import { EaselPlugin } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/EaselPlugin.js';
-import { TextPlugin } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/TextPlugin.js';
+import { gsap } from 'gsap';
+import { Flip } from 'gsap/Flip';
+import { EaselPlugin } from 'gsap/EaselPlugin';
+import { TextPlugin } from 'gsap/TextPlugin';
+import * as THREE from 'three';
+// import { RoundedBoxGeometry } from './node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js';
+import * as CANNON from 'cannon-es';
+// import CannonDebugger from 'cannon-es-debugger';
+// import { space } from 'postcss/lib/list';
+// import { TweenMax } from 'gsap/gsap-core';
 
 gsap.registerPlugin(Flip, EaselPlugin, TextPlugin);
 
@@ -389,7 +392,7 @@ const wood = new THREE.TextureLoader().load(
 
 //create block function
 function createBlock(blockName, blockPosition, blockShape, blockMeshArray) {
-	const mass = 0.05;
+	const mass = 0.00001;
 	blockName = new CANNON.Body({
 		//physics part of block
 		mass: mass,
@@ -680,9 +683,9 @@ function wakeUpBlocks() {
 function explodeTower() {
 	physicsWorld.gravity.set(0, -10, 0);
 	for (let i = 0; i < blockPhysicsArray.length; i++) {
-		let randoX = (Math.random() - 0.5) * 3;
-		let randoZ = (Math.random() - 0.5) * 3;
-		let randoY = Math.random() * 0.005;
+		let randoX = (Math.random() - 0.5) * 0.0005;
+		let randoZ = (Math.random() - 0.5) * 0.0005;
+		let randoY = Math.random() * 0.000005;
 		blockPhysicsArray[i].applyImpulse(
 			new CANNON.Vec3(randoX, randoY, randoZ),
 			new CANNON.Vec3(0, 0, 0),
@@ -772,15 +775,6 @@ function addJointConstraint(position, constrainedBody) {
 		jointBody,
 		new CANNON.Vec3(0, 0, 0),
 	);
-	// ⭐ ADD DAMPING + SOFTNESS HERE ⭐
-	jointConstraint.collideConnected = false;
-
-	// Lower stiffness = less jitter
-	jointConstraint.equations[0].setStiffness = 40;
-
-	// Higher relaxation = smoother motion
-	jointConstraint.equations[0].relaxation = 4;
-
 	// Add the constraint to physicsWorld
 	physicsWorld.addConstraint(jointConstraint);
 }
@@ -855,7 +849,7 @@ window.addEventListener('pointermove', (event) => {
 		// clickMouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
 		// raycaster.setFromCamera( clickMouse, camera );
 		// const found = raycaster.intersectObjects( scene.children );
-		// wakeUpBlocks();
+		wakeUpBlocks();
 		moveClickMarker(hitPoint);
 		moveJoint(hitPoint);
 	}

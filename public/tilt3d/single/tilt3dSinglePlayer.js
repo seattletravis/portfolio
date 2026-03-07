@@ -1,4 +1,3 @@
-import '../input.css';
 import { gsap } from 'gsap';
 import { Flip } from 'gsap/Flip';
 import { EaselPlugin } from 'gsap/EaselPlugin';

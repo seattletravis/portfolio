@@ -7,67 +7,69 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-		<div class="flex h-screen bg-black select-none">
+		<div class="flex flex-col md:flex-row h-screen bg-black select-none">
 			<!-- LEFT SIDE PANEL CONTROLS AND INFO -->
 			<div
 				id="leftSideOfScreen"
-				class="w-1/4 flex flex-col justify-center px-10">
-				<div class="flex font-bold justify-center"></div>
-				<h1 class="text-center text-yellow-600 px-4 text-7xl">TILT3D</h1>
+				class="w-full md:w-1/3 flex flex-col items-center justify-center px-6 md:px-10 py-6">
+				<h1
+					class="text-center text-yellow-600 px-4 text-3xl md:text-5xl lg:text-6xl">
+					TILT3D
+				</h1>
+
 				<a
-					class="flex flex-col items-center text-yellow-600"
+					class="flex flex-col items-center text-yellow-600 mt-2"
 					title="Exit!"
-					href="/"
-					>by Travis Lamberte</a
-				><br />
+					href="/">
+					by Travis Lamberte
+				</a>
 
 				<div
-					class="flex flex-col justify-center items-center border-2 border-green-600 rounded-lg py-2">
+					class="flex flex-col justify-center items-center border-2 border-green-600 rounded-lg py-4 px-4 w-full max-w-sm md:max-w-md mt-6">
 					<h1
 						id="gameControl"
-						class="float-left text-yellow-600 text-2xl font-bold flex flex-col items-center">
+						class="text-yellow-600 text-xl md:text-2xl font-bold text-center">
 						GAME MENU
 					</h1>
-					<br />
-					<div class="flex justify-center items-center">
+
+					<div class="flex justify-center items-center mt-4">
 						<button
 							id="playerOneButton"
-							class="m-auto text-blue-600 text-2xl font-bold border-4 border-blue-600 rounded-full px-4 py-3 opacity-40">
+							class="m-auto text-blue-600 text-lg md:text-2xl font-bold border-4 border-blue-600 rounded-full px-4 py-2 md:py-3 w-full max-w-xs opacity-40">
 							ONE PLAYER
 						</button>
 					</div>
-					<br />
-					<div class="flex justify-center items-center">
+
+					<div class="flex justify-center items-center mt-4">
 						<button
 							id="playerTwoButton"
-							class="m-auto text-red-600 text-2xl font-bold border-4 border-red-600 rounded-full px-4 py-3 opacity-40">
+							class="m-auto text-red-600 text-lg md:text-2xl font-bold border-4 border-red-600 rounded-full px-4 py-2 md:py-3 w-full max-w-xs opacity-40">
 							TWO PLAYER
 						</button>
 					</div>
-					<br />
-					<div class="flex justify-center items-center">
+
+					<div class="flex justify-center items-center mt-4">
 						<a
 							id="startButton"
-							class="m-auto text-purple-600 text-2xl font-bold border-4 border-purple-600 rounded-full px-4 py-3 opacity-40"
-							>START GAME</a
-						>
+							class="m-auto text-purple-600 text-lg md:text-2xl font-bold border-4 border-purple-600 rounded-full px-4 py-2 md:py-3 w-full max-w-xs opacity-40">
+							START GAME
+						</a>
 					</div>
-					<br />
-					<div class="flex justify-center items-center">
+
+					<div class="flex justify-center items-center mt-4">
 						<button
 							id="aboutButton"
-							class="m-auto text-yellow-600 font-bold border-2 border-yellow-600 rounded-full px-8 py-1 opacity-100">
+							class="m-auto text-yellow-600 font-bold border-2 border-yellow-600 rounded-full px-6 py-1 w-full max-w-xs">
 							ABOUT TILT3D
 						</button>
 					</div>
-					<br />
 				</div>
 			</div>
 
 			<!-- RIGHT SIDE PANEL - GAME SCREEN -->
 			<div
 				id="rightSideOfScreen"
-				class="w-3/4 flex flex-col float-left justify-center text-xl px-10">
+				class="w-full md:w-3/4 flex flex-col justify-center text-base md:text-xl px-4 md:px-10">
 				<div id="introInfo" class="text-yellow-600">
 					<p1>
 						Note: Please don't play this on a tablet or smartphone.<br />

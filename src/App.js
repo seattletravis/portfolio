@@ -7,7 +7,10 @@ import Skills from './2-Skills/Skills';
 import Work from './3-Work/Work';
 import Contact from './5-Contact/Contact';
 import Layout from './4-Layout/Layout';
-import Design from './6-Design/Design';
+// import Design from './6-Design/Design';
+import Tilt3DMenu from './pages/Tilt3DMenu';
+import Tilt3DSingle from './pages/Tilt3DSingle';
+import Tilt3DMulti from './pages/Tilt3DMulti';
 
 function App() {
 	return (
@@ -19,7 +22,10 @@ function App() {
 				<Route path='/skills' element={<Skills />} />
 				<Route path='/projects' element={<Work />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/design' element={<Design />} />
+				{/* <Route path='/design' element={<Design />} /> */}
+				<Route path='/tilt3d' element={<Tilt3DMenu />} />
+				<Route path='/tilt3d/single' element={<Tilt3DSingle />} />
+				<Route path='/tilt3d/multi' element={<Tilt3DMulti />} />
 				<Route path='*' element={<About />} />
 			</Routes>
 		</HashRouter>
