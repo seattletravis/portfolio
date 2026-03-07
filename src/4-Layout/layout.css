@@ -1,0 +1,22 @@
+.page-container {
+	background-color: white; /* or your new color */
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 17rem; /* IMPORTANT: space for fixed navbar */
+}
+/* Force Layout nav to be invisible and not take up space */
+nav {
+	background: transparent !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 0 !important;
+	overflow: hidden !important;
+}
+
+/* Reset the UL inside it */
+nav ul {
+	background: transparent !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+}

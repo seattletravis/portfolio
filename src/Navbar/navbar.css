@@ -11,7 +11,9 @@
 	top: 0;
 	width: 100%;
 	z-index: 88;
-	background-color: beige;
+
+	/* CHANGE THIS COLOR FOR ENTIRE NAVBAR COLOR - ENTIRE PROJECT HAS THIS NAVBAR COLOR - MASTER NAVBAR COLOR HERE */
+	background-color: white !important;
 	/* border: sienna solid 1px; */
 }
 .navbar-top {
