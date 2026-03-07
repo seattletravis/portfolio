@@ -1,127 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BLOCKS GAMEROOM</title>
-    <!-- <link rel="stylesheet" href="../input.css"> -->
-  </head>
-  <body>
-    <div class="flex h-screen bg-black select-none">
-      <!-- LEFT SIDE PANEL CONTROLS AND INFO -->
-      <div id="leftSideOfScreen" class="w-1/4 flex flex-col justify-center px-10">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BLOCKS GAMEROOM</title>
+		<!-- <link rel="stylesheet" href="../input.css"> -->
+	</head>
+	<body>
+		<div class="flex h-screen bg-black select-none">
+			<!-- LEFT SIDE PANEL CONTROLS AND INFO -->
+			<div
+				id="leftSideOfScreen"
+				class="w-1/4 flex flex-col justify-center px-10">
+				<div class="flex font-bold justify-center"></div>
+				<h1 class="text-center text-yellow-600 px-4 text-7xl">TILT3D</h1>
+				<a
+					class="flex flex-col items-center text-yellow-600"
+					title="Arcade Menu!"
+					id="enterButton"
+					href="../arcade/index.html"
+					>by Travis Lamberte</a
+				><br />
 
-          <div class="flex font-bold justify-center">
+				<div
+					class="flex flex-col justify-center items-center border-2 border-green-600 rounded-lg py-2">
+					<h1
+						id="gameControl"
+						class="float-left text-yellow-600 text-2xl font-bold flex flex-col items-center">
+						GAME MENU
+					</h1>
+					<br />
+					<div class="flex justify-center items-center">
+						<button
+							id="playerOneButton"
+							class="m-auto text-blue-600 text-2xl font-bold border-4 border-blue-600 rounded-full px-4 py-3 opacity-40">
+							ONE PLAYER
+						</button>
+					</div>
+					<br />
+					<div class="flex justify-center items-center">
+						<button
+							id="playerTwoButton"
+							class="m-auto text-red-600 text-2xl font-bold border-4 border-red-600 rounded-full px-4 py-3 opacity-40">
+							TWO PLAYER
+						</button>
+					</div>
+					<br />
+					<div class="flex justify-center items-center">
+						<a
+							id="startButton"
+							class="m-auto text-purple-600 text-2xl font-bold border-4 border-purple-600 rounded-full px-4 py-3 opacity-40"
+							>START GAME</a
+						>
+					</div>
+					<br />
+					<div class="flex justify-center items-center">
+						<button
+							id="aboutButton"
+							class="m-auto text-yellow-600 font-bold border-2 border-yellow-600 rounded-full px-8 py-1 opacity-100">
+							ABOUT TILT3D
+						</button>
+					</div>
+					<br />
+				</div>
+			</div>
 
-            </div>
-          <h1 class="text-center text-yellow-600 px-4 text-7xl">TILT3D</h1>
-          <a class="flex flex-col items-center text-yellow-600" title="Arcade Menu!" id="enterButton" href="../arcade/index.html">by Travis Lamberte</a><br>
+			<!-- RIGHT SIDE PANEL - GAME SCREEN -->
+			<div
+				id="rightSideOfScreen"
+				class="w-3/4 flex flex-col float-left justify-center text-xl px-10">
+				<div id="introInfo" class="text-yellow-600">
+					<p1>
+						Note: Please don't play this on a tablet or smartphone.<br />
+						Written for the web browser so that it is easily accessible
+						but...<br />
+						it is meant to be played on a computer with a mouse and keyboard.<br /><br />
+						TILT3D by Travis Lamberte was written in Vanilla-JS, & HTML using
+						Three-JS,<br />
+						and Cannon-ES for the physics engine.<br />
+						This project also uses Vite, Node, GSAP, Tailwind among other
+						modules.<br />
+						You can clone the single and multiplyer versions of this game at<br />
+						<a
+							class="text-green-600"
+							href="https://github.com/seattletravis/Tilt3dOnePlayer.git">
+							https://github.com/seattletravis/Tilt3dOnePlayer.git</a
+						><br />
+						<a
+							class="text-green-600"
+							href="https://github.com/seattletravis/Tilt3dMultiPlayer.git">
+							https://github.com/seattletravis/Tilt3dMultiPlayer.git</a
+						><br />
+						Select a player mode in the menu to get started.<br />
+						If you like my game and want to give me a job, please email me.<br />
+						Thank you Max Roz for the panos used for the rooms.
+					</p1>
+				</div>
 
-          <div class="flex flex-col justify-center items-center border-2 border-green-600 rounded-lg py-2">
-            <h1 id="gameControl" class="float-left text-yellow-600 text-2xl font-bold flex flex-col items-center">GAME MENU</h1><br>
-            <div class="flex justify-center items-center">
-              <button id="playerOneButton" class="m-auto text-blue-600 text-2xl font-bold border-4 border-blue-600 rounded-full px-4 py-3 opacity-40">ONE PLAYER</button>
-            </div><br>
-            <div class="flex justify-center items-center">
-              <button id="playerTwoButton" class="m-auto text-red-600 text-2xl font-bold border-4 border-red-600 rounded-full px-4 py-3 opacity-40">TWO PLAYER</button>
-            </div><br>
-            <div class="flex justify-center items-center">
-              <a id="startButton" class="m-auto text-purple-600 text-2xl font-bold border-4 border-purple-600 rounded-full px-4 py-3 opacity-40">START GAME</a>
-            </div><br>
-            <div class="flex justify-center items-center">
-              <button id="aboutButton" class="m-auto text-yellow-600 font-bold border-2 border-yellow-600 rounded-full px-8 py-1 opacity-100">ABOUT TILT3D</button>
-            </div><br>
-          </div>
-      </div>
+				<div id="onePlayerInfo" class="text-blue-900 hidden">
+					<p1>
+						ONE PLAYER SELECTED - PRESS "START GAME"<br /><br />
 
+						Goal:<br />
+						Go 10 rounds (10 tiles) to score as many points as possible.<br />
+						Max Score 1000 Points (100 Points per Tile)<br /><br />
 
+						Game Play:<br />
+						Mouse click to grab a tile & release the mouse to drop the tile.<br />
+						Releasing a tile over your score bubble will tally your points.<br />
+						Be Careful! If the round top-block goes too far off center…<br />
+						Ka-bloo-ee! The tower explodes, the game ends, and you lose.<br />
+						You can move the camera position by hovering over the
+						hover-controls<br />
+						(Keyboard keys enabled “a, s, d, w” Left, Down, Right, Up & “i, o,
+						r” In, Out, Reset.)<br /><br />
 
+						Scoring:<br />
+						Scores for each turn can be anywhere between 0-100 points.<br />
+						The farther the top-block is from center the less points the<br />
+						current tile is worth, when it's dropped in the score bubble.<br />
+						(use the “Maximum Score” readout to see what your score will be when
+						you drop your tile)<br />
+						TIP: You can nudge the tower and click on any of the tiles as much
+						as you want.
+					</p1>
+				</div>
 
+				<div id="twoPlayerInfo" class="text-red-600 hidden">
+					<p1>
+						TWO PLAYER SELECTED - PRESS "START GAME"<br /><br />
 
-      <!-- RIGHT SIDE PANEL - GAME SCREEN -->
-      <div id="rightSideOfScreen" class="w-3/4 flex flex-col float-left justify-center text-xl px-10">
-        
-        <div id="introInfo"  class="text-yellow-600">
-          <p1>
-            Note: Please don't play this on a tablet or smartphone.<br>
-            Written for the web browser so that it is easily accessible but...<br>
-            it is meant to be played on a computer with a mouse and keyboard.<br><br>
-            TILT3D by Travis Lamberte was written in Vanilla-JS, & HTML using Three-JS,<br> and Cannon-ES for the physics engine.<br>
-            This project also uses Vite, Node, GSAP, Tailwind among other modules.<br>
-            You can clone the single and multiplyer versions of this game at<br>
-            <a class="text-green-600" href="https://github.com/seattletravis/Tilt3dOnePlayer.git">
-            https://github.com/seattletravis/Tilt3dOnePlayer.git</a><br>
-            <a class="text-green-600" href="https://github.com/seattletravis/Tilt3dMultiPlayer.git">
-            https://github.com/seattletravis/Tilt3dMultiPlayer.git</a><br>
-            Select a player mode in the menu to get started.<br>
-            If you like my game and want to give me a job, please email me.<br>
-            Thank you Max Roz for the panos used for the rooms. 
+						Goal:<br />
+						Score more points than your opponent.<br /><br />
 
-          </p1>
-        </div>   
+						Game Play:<br />
+						Red Player goes first! Each player takes turns. <br />
+						Keep playing until tower explodes.<br />
+						Mouse click to grab a tile & release the mouse to drop the tile.<br />
+						Releasing a tile over your score bubble will tally your points.<br />
+						Be Careful! If the round top-block goes too far off center…<br />
+						Ka-bloo-ee! The tower explodes, the game ends, and you lose.<br />
+						You can move the camera position by hovering over the
+						hover-controls<br />
+						(Keyboard keys enabled “a, s, d, w” Left, Down, Right, Up & “i, o,
+						r” In, Out, Reset.)<br /><br />
 
-        <div id="onePlayerInfo"  class="text-blue-900 hidden">
-          <p1>
-            ONE PLAYER SELECTED - PRESS "START GAME"<br><br>
-           
-            Goal:<br>
-            Go 10 rounds (10 tiles) to score as many points as possible.<br>
-            Max Score 1000 Points (100 Points per Tile)<br><br>
-            
-            Game Play:<br>
-            Mouse click to grab a tile & release the mouse to drop the tile.<br>
-            Releasing a tile over your score bubble will tally your points.<br>
-            Be Careful! If the round top-block goes too far off center…<br>
-            Ka-bloo-ee! The tower explodes, the game ends, and you lose.<br>
-            You can move the camera position by hovering over the hover-controls<br>
-            (Keyboard keys enabled “a, s, d, w” Left, Down, Right, Up & “i, o, r” In, Out, Reset.)<br><br>
-            
-            Scoring:<br>
-            Scores for each turn can be anywhere between 0-100 points.<br>
-            The farther the top-block is from center the less points the<br>
-            current tile is worth, when it's dropped in the score bubble.<br> 
-            (use the “Maximum Score” readout to see what your score will be when you drop your tile)<br>
-            TIP: You can nudge the tower and click on any of the tiles as much as you want.
-          </p1>
-        </div>   
-
-        <div id="twoPlayerInfo" class="text-red-600 hidden">
-          <p1>
-            TWO PLAYER SELECTED - PRESS "START GAME"<br><br>
-
-            Goal:<br>
-            Score more points than your opponent.<br><br>
-
-            Game Play:<br>
-            Red Player goes first! Each player takes turns. <br>
-            Keep playing until tower explodes.<br>
-            Mouse click to grab a tile & release the mouse to drop the tile.<br>
-            Releasing a tile over your score bubble will tally your points.<br>
-            Be Careful! If the round top-block goes too far off center…<br>
-            Ka-bloo-ee! The tower explodes, the game ends, and you lose.<br>
-            You can move the camera position by hovering over the hover-controls<br>
-            (Keyboard keys enabled “a, s, d, w” Left, Down, Right, Up & “i, o, r” In, Out, Reset.)<br><br>
-
-            Scoring:<br>
-            Scores for each turn can be anywhere between 0-100 points.<br>
-            The farther the top-block is from center the less points the<br>
-            current tile is worth, when it's dropped in the score bubble.<br> 
-            (use the “Maximum Score” readout to see what your score will be when you drop your tile)<br>
-            TIP: You can nudge the tower and click on any of the tiles as much as you want.
-          </p1>
-
-        </div>
- 
-
-        </div>
-    
-
-
-
-
-      
-    </div>
-    <script type="module" src="tilt3dMenu.js"></script>
-  </body>
+						Scoring:<br />
+						Scores for each turn can be anywhere between 0-100 points.<br />
+						The farther the top-block is from center the less points the<br />
+						current tile is worth, when it's dropped in the score bubble.<br />
+						(use the “Maximum Score” readout to see what your score will be when
+						you drop your tile)<br />
+						TIP: You can nudge the tower and click on any of the tiles as much
+						as you want.
+					</p1>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="tilt3dMenu.js"></script>
+	</body>
 </html>
