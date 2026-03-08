@@ -11,6 +11,7 @@ import Layout from './4-Layout/Layout';
 import Tilt3DMenu from './pages/Tilt3DMenu';
 import Tilt3DSingle from './pages/Tilt3DSingle';
 import Tilt3DMulti from './pages/Tilt3DMulti';
+import BubbleGum from './pages/BubbleGum';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 				<Route path='/tilt3d' element={<Tilt3DMenu />} />
 				<Route path='/tilt3d/single' element={<Tilt3DSingle />} />
 				<Route path='/tilt3d/multi' element={<Tilt3DMulti />} />
+				<Route path='/bubblegum' element={<BubbleGum />} />
 				<Route path='*' element={<About />} />
 			</Routes>
 		</HashRouter>
