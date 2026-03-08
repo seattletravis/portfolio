@@ -1,13 +1,10 @@
-import { gsap } from 'gsap';
-import { Flip } from 'gsap/Flip';
-import { EaselPlugin } from 'gsap/EaselPlugin';
-import { TextPlugin } from 'gsap/TextPlugin';
-import * as THREE from 'three';
-// import { RoundedBoxGeometry } from './node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js';
-import * as CANNON from 'cannon-es';
-// import CannonDebugger from 'cannon-es-debugger';
-// import { space } from 'postcss/lib/list';
-// import { TweenMax } from 'gsap/gsap-core';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
+import * as CANNON from 'https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js';
+
+import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.js';
+import { Flip } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/Flip.js';
+import { EaselPlugin } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/EaselPlugin.js';
+import { TextPlugin } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/TextPlugin.js';
 
 gsap.registerPlugin(Flip, EaselPlugin, TextPlugin);
 
