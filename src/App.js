@@ -1,6 +1,8 @@
 // import { Fragment } from 'react';
 // import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+// import { Routes, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+
 import Navbar from './Navbar/Navbar';
 import About from './1-About/About';
 import Skills from './2-Skills/Skills';
@@ -15,7 +17,7 @@ import BubbleGum from './pages/BubbleGum';
 
 function App() {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Layout />} />
@@ -30,7 +32,7 @@ function App() {
 				<Route path='/bubblegum' element={<BubbleGum />} />
 				<Route path='*' element={<About />} />
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	);
 }
 
