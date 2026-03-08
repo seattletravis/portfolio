@@ -1,7 +1,7 @@
 // import { Fragment } from 'react';
 // import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
 // import { Routes, Route, HashRouter } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Navbar/Navbar';
 import About from './1-About/About';

@@ -1,5 +1,10 @@
 RewriteEngine On
 RewriteBase /
+
+# Exclude Tilt3D and Bubblegum from React rewrites
+RewriteCond %{REQUEST_URI} !^/tilt3d/
+RewriteCond %{REQUEST_URI} !^/bubblegum/
+
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
