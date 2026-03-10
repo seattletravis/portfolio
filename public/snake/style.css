@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden; /* Prevent scrolling */
+	touch-action: none; /* Disable default touch behaviors */
+}
+
+#joystick-area {
+	touch-action: none;
+	position: fixed;
+	bottom: 40px;
+	left: 40px;
+	width: 180px;
+	height: 180px;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 50%;
+	touch-action: none;
+}
+
+#joystick {
+	/* touch-action: none; */
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	transition: 0.05s;
+}
+
+.buttonStyling {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+#canvas1 {
+	border: 5px solid blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: black;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	touch-action: none;
+}

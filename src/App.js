@@ -14,6 +14,7 @@ import Tilt3DMenu from './pages/Tilt3DMenu';
 import Tilt3DSingle from './pages/Tilt3DSingle';
 import Tilt3DMulti from './pages/Tilt3DMulti';
 import BubbleGum from './pages/BubbleGum';
+import SnakeBoids from './pages/SnakeBoids';
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 				<Route path='/tilt3d/single' element={<Tilt3DSingle />} />
 				<Route path='/tilt3d/multi' element={<Tilt3DMulti />} />
 				<Route path='/gum' element={<BubbleGum />} />
+				<Route path='/snake' element={<SnakeBoids />} />
 				<Route path='*' element={<About />} />
 			</Routes>
 		</BrowserRouter>
