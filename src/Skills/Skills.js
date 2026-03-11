@@ -13,6 +13,8 @@ import PythonImg from '../Media/Images/skills/python.png';
 import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
 import EUImg from '../Media/Images/eu_logo.png';
+import comptiaImg from '../Media/Images/comptiaA_logo.png';
+import comptiaDiploma from '../Media/Images/CompTIAcert.pdf';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
 import IBMImg from '../Media/Images/IBM_logo.png';
@@ -27,6 +29,7 @@ function Skills() {
 	const [mouse3, setMouse3] = useState(false);
 	const [mouse4, setMouse4] = useState(false);
 	const [mouse5, setMouse5] = useState(false);
+	const [mouse6, setMouse6] = useState(false);
 
 	const [cert1, setCert1] = useState(false);
 	const [cert2, setCert2] = useState(false);
@@ -43,6 +46,8 @@ function Skills() {
 	const [ed3Ref, ed3InView] = useInView({ threshold: 0, triggerOnce: true });
 	const [ed4Ref, ed4InView] = useInView({ threshold: 0, triggerOnce: true });
 	const [ed5Ref, ed5InView] = useInView({ threshold: 0, triggerOnce: true });
+	const [ed6Ref, ed6InView] = useInView({ threshold: 0, triggerOnce: true });
+
 	return (
 		<div className='skills-container'>
 			<div className='skills-wrapper'>
@@ -320,7 +325,7 @@ function Skills() {
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
-							href='https://coursera.org/share/34ab8ef980310c57f4d4d43d36812291'
+							href='https://www.credly.com/badges/9e88262b-7fcd-4b9a-bc8a-51889a733237/public_url'
 							target='_blank'
 							rel='noreferrer'>
 							<div
@@ -329,10 +334,41 @@ function Skills() {
 								onMouseLeave={() => setMouse3(true)}>
 								<img
 									className='cert-img'
-									src={IBMImg}
+									src={comptiaImg}
 									alt='IMB Full Stack Developer Certification'
 								/>
 								<GiClick id={mouse3 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<div className='cert-img-hover-box'>
+									<h1>View certificate</h1>
+									<BsBoxArrowUpRight id='cert-arrow' />
+								</div>
+							</div>
+						</a>
+						<div className='cert-text-box'>
+							<h1 className='cert-title'>Comptia A+ Certification</h1>
+							<p>IT Professional Industry Standard Certification.</p>
+						</div>
+					</div>
+					<div
+						ref={ed4Ref}
+						className='cert-item'
+						id={ed4InView ? 'cert4-active' : undefined}
+						onMouseEnter={() => setMouse4(true)}
+						onMouseLeave={() => setMouse4(false)}>
+						<a
+							href='https://coursera.org/share/34ab8ef980310c57f4d4d43d36812291'
+							target='_blank'
+							rel='noreferrer'>
+							<div
+								className='cert-img-wrapper'
+								onMouseEnter={() => setMouse4(false)}
+								onMouseLeave={() => setMouse4(true)}>
+								<img
+									className='cert-img'
+									src={IBMImg}
+									alt='IMB Full Stack Developer Certification'
+								/>
+								<GiClick id={mouse4 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
 									<BsBoxArrowUpRight id='cert-arrow' />
@@ -347,21 +383,21 @@ function Skills() {
 						</div>
 					</div>
 					<div
-						ref={ed4Ref}
+						ref={ed5Ref}
 						className='cert-item'
-						id={ed2InView ? 'cert4-active' : undefined}
-						onMouseEnter={() => setMouse4(true)}
-						onMouseLeave={() => setMouse4(false)}>
+						id={ed2InView ? 'cert5-active' : undefined}
+						onMouseEnter={() => setMouse5(true)}
+						onMouseLeave={() => setMouse5(false)}>
 						<a
 							href='https://coursera.org/share/5112f23d56e2e1a4e9c3032d16a6ad8e'
 							target='_blank'
 							rel='noreferrer'>
 							<div
 								className='cert-img-wrapper'
-								onMouseEnter={() => setMouse4(false)}
-								onMouseLeave={() => setMouse4(true)}>
+								onMouseEnter={() => setMouse5(false)}
+								onMouseLeave={() => setMouse5(true)}>
 								<img className='cert-img' src={MetaImg} alt='AWS' />
-								<GiClick id={mouse4 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<GiClick id={mouse5 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
 									<BsBoxArrowUpRight id='cert-arrow' />
@@ -377,25 +413,25 @@ function Skills() {
 						</div>
 					</div>
 					<div
-						ref={ed5Ref}
+						ref={ed6Ref}
 						className='cert-item'
-						id={ed5InView ? 'cert5-active' : undefined}
-						onMouseEnter={() => setMouse5(true)}
-						onMouseLeave={() => setMouse5(false)}>
+						id={ed5InView ? 'cert6-active' : undefined}
+						onMouseEnter={() => setMouse6(true)}
+						onMouseLeave={() => setMouse6(false)}>
 						<a
 							href='https://coursera.org/share/bfee3098f1003fbd25b21aefa21720d5'
 							target='_blank'
 							rel='noreferrer'>
 							<div
 								className='cert-img-wrapper'
-								onMouseEnter={() => setMouse5(false)}
-								onMouseLeave={() => setMouse5(true)}>
+								onMouseEnter={() => setMouse6(false)}
+								onMouseLeave={() => setMouse6(true)}>
 								<img
 									className='cert-img'
 									src={GoogleImg}
 									alt='Comptia Security +'
 								/>
-								<GiClick id={mouse5 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<GiClick id={mouse6 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
 									<BsBoxArrowUpRight id='cert-arrow' />

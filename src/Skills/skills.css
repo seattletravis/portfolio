@@ -396,7 +396,8 @@
 #cert2-active,
 #cert3-active,
 #cert4-active,
-#cert5-active {
+#cert5-active,
+#cert6-active {
 	animation: certItemSlide 3s ease 0.25s forwards;
 }
 .cert-img-hover-box {
