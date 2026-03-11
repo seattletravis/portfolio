@@ -14,7 +14,6 @@ import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
 import EUImg from '../Media/Images/eu_logo.png';
 import comptiaImg from '../Media/Images/comptiaA_logo.png';
-import comptiaDiploma from '../Media/Images/CompTIAcert.pdf';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
 import IBMImg from '../Media/Images/IBM_logo.png';
@@ -321,7 +320,7 @@ function Skills() {
 					<div
 						ref={ed3Ref}
 						className='cert-item'
-						id={ed4InView ? 'cert3-active' : undefined}
+						id={ed3InView ? 'cert3-active' : undefined}
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
@@ -385,7 +384,7 @@ function Skills() {
 					<div
 						ref={ed5Ref}
 						className='cert-item'
-						id={ed2InView ? 'cert5-active' : undefined}
+						id={ed5InView ? 'cert5-active' : undefined}
 						onMouseEnter={() => setMouse5(true)}
 						onMouseLeave={() => setMouse5(false)}>
 						<a
@@ -415,7 +414,7 @@ function Skills() {
 					<div
 						ref={ed6Ref}
 						className='cert-item'
-						id={ed5InView ? 'cert6-active' : undefined}
+						id={ed6InView ? 'cert6-active' : undefined}
 						onMouseEnter={() => setMouse6(true)}
 						onMouseLeave={() => setMouse6(false)}>
 						<a

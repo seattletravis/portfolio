@@ -414,12 +414,12 @@
 }
 .cert-img-hover-box h1 {
 	font-size: 1.85rem;
-	color: white;
+	color: black;
 	padding-right: 0.75rem;
 }
 #cert-arrow {
 	font-size: 1.75rem;
-	color: white;
+	color: black;
 }
 .cert-img-hover-box:hover {
 	opacity: 1;
