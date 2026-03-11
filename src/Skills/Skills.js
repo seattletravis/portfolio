@@ -218,14 +218,14 @@ function Skills() {
 								/>
 							</div>
 							<GiClick id={mouse1 ? 'cwu-pointer' : 'cwu-pointer-gone'} />
-							<div className='cwu-img-hover-box'>
+							{/* <div className='cwu-img-hover-box'>
 								<h1 style={cert1 ? { opacity: '1' } : { opacity: '0' }}>
 									Click to hide certificate
 								</h1>
 								<h1 style={cert1 ? { opacity: '0' } : { opacity: '1' }}>
 									Click to view certificate
 								</h1>
-							</div>
+							</div> */}
 						</div>
 						<div className='cwu-text-box'>
 							<h3>St Davids, PA</h3>
@@ -277,14 +277,14 @@ function Skills() {
 								/>
 							</div>
 							<GiClick id={mouse2 ? 'cwu-pointer' : 'cwu-pointer-gone'} />
-							<div className='cwu-img-hover-box'>
+							{/* <div className='cwu-img-hover-box'>
 								<h1 style={cert2 ? { opacity: '1' } : { opacity: '0' }}>
 									Click to hide certificate
 								</h1>
 								<h1 style={cert2 ? { opacity: '0' } : { opacity: '1' }}>
 									Click to view certificate
 								</h1>
-							</div>
+							</div> */}
 						</div>
 						<div className='cwu-text-box'>
 							<h3>Ellensburg, WA</h3>

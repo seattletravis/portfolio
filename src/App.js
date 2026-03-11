@@ -4,11 +4,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Navbar/Navbar';
-import About from './1-About/About';
-import Skills from './2-Skills/Skills';
-import Work from './3-Work/Work';
-import Contact from './5-Contact/Contact';
-import Layout from './4-Layout/Layout';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Work from './Work/Work';
+import Contact from './Contact/Contact';
+import Layout from './Layout/Layout';
 import Tilt3DMenu from './pages/Tilt3DMenu';
 import Tilt3DSingle from './pages/Tilt3DSingle';
 import Tilt3DMulti from './pages/Tilt3DMulti';

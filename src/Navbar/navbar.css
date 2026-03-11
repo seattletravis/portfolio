@@ -82,6 +82,7 @@
 	font-size: 2.5rem;
 	/* font-weight: 500; */
 	font-style: italic;
+	color: black;
 	line-height: 2.85;
 	transition: transform 0.95s ease;
 	cursor: pointer;
@@ -98,10 +99,10 @@
 	cursor: pointer;
 }
 
-/* .nav-link:active h1 {
+.nav-link:active h1 {
 	transition-delay: 0.95s;
 	transform: scale(0.95);
-} */
+}
 .nav-item {
 	position: relative;
 	font-size: 0.75rem;
@@ -127,9 +128,6 @@
 	background-color: transparent;
 }
 
-.nav-item .active {
-	color: sienna;
-}
 .navbar-bottom {
 	display: flex;
 	justify-content: center;
@@ -143,7 +141,7 @@
 	transition: all 0.25s ease;
 }
 .nav-icon:hover {
-	color: sienna;
+	/* color: sienna; */
 	transform: scale(1.085);
 }
 
