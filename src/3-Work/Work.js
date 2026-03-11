@@ -232,7 +232,7 @@ function Work() {
 								/>
 							</div>
 							<a
-								href='https://travis.lamberte.com/tilt3dSinglePlayer/index.html'
+								href='https://travislamberte.com/tilt3d/menu'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -247,10 +247,10 @@ function Work() {
 							</h1>
 							<a
 								className='port-title-site'
-								href='https://travis.lamberte.com/tilt3dSinglePlayer/index.html'
+								href='https://travislamberte.com/tilt3d/menu'
 								target='_blank'
 								rel='noreferrer'>
-								https://travis.lamberte.com/tilt3dSinglePlayer/index.html
+								https://travislamberte.com/tilt3d/menu
 							</a>
 							<p className='port-headline'>
 								Let's push ThreeJS to it's limits with this Jenga Style game
