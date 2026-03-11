@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="beemo_clock.css" />
+		<title>It's Beemo Time!</title>
+	</head>
+	<body>
+		<div>
+			<div class="pageTitle">
+				<h1>BEEMO'S DATE & TIME</h1>
+				<h2 id="date">date here</h2>
+			</div>
+
+			<div class="clock">
+				<div>
+					<img
+						class="beemo_images_under"
+						id="beemo_tail"
+						src="./beemo_clock_images/tail.png" />
+					<img
+						class="beemo_images_under"
+						id="beemo_eyesbg"
+						src="./beemo_clock_images/eyesbg.png" />
+					<img
+						class="beemo_images_under"
+						id="beemo_pupils"
+						src="./beemo_clock_images/pupils.png" />
+					<img
+						class="beemo_images_over"
+						id="beemo_body_overlay"
+						src="./beemo_clock_images/beemo_body_new.png" />
+				</div>
+				<div class="hour">
+					<div class="hr" id="hr"></div>
+				</div>
+				<div class="min">
+					<div class="mn" id="mn"></div>
+				</div>
+				<div class="sec">
+					<div class="sc" id="sc"></div>
+				</div>
+			</div>
+
+			<div class="dateTime">
+				<h2 id="time">time here</h2>
+				<h2 id="returnToDiv">
+					<a id="returnToBtn" href="https://travislamberte.com/projects"
+						>Return to Game Menu</a
+					>
+				</h2>
+			</div>
+		</div>
+
+		<!-- <script type="text/javascript" src="/beemo_clock.js"></script> -->
+		<script type="module" src="beemo_clock.js"></script>
+	</body>
+</html>

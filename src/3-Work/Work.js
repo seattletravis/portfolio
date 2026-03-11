@@ -18,13 +18,8 @@ import UnchaImg from '../Media/Images/projectImages/UnchaIMG.png';
 import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
 // Other Logos
 import ComingSoonLogo from '../Media/Images/other-work-icons/ComingSoonLogo.png';
-import OldSiteLogo from '../Media/Images/other-work-icons/OldSiteLogo.png';
-import TetrominosLogo from '../Media/Images/other-work-icons/Tetrominos.png';
-import OrbitsLogo from '../Media/Images/other-work-icons/OrbitsLogo.png';
 import BeemoLogo from '../Media/Images/other-work-icons/BeemoLogo.png';
 import UncleHawaiiLogo from '../Media/Images/other-work-icons/UncleHawaiiLogo.png';
-import PPortLogo from '../Media/Images/other-work-icons/pprevLogo.png';
-import TBGif from '../Media/Images/other-work-icons/TBGIFLogo.gif';
 
 function Work() {
 	useEffect(() => {
@@ -51,14 +46,6 @@ function Work() {
 	});
 	const otherData = [
 		{
-			id: 1,
-			title: 'Prev. Portfolio',
-			image: PPortLogo,
-			github: 'https://github.com/seattletravis/seattletravis',
-			link: 'https://seattletravis.com',
-			largeTitle: false,
-		},
-		{
 			id: 6,
 			title: 'Apparel Shop',
 			image: UncleHawaiiLogo,
@@ -71,39 +58,7 @@ function Work() {
 			title: 'Beemo Date & Time',
 			image: BeemoLogo,
 			github: 'https://github.com/seattletravis',
-			link: 'https://travis.lamberte.com/clock/index.html',
-			largeTitle: false,
-		},
-		{
-			id: 3,
-			title: 'Orbits',
-			image: OrbitsLogo,
-			github: 'https://github.com/seattletravis',
-			link: 'https://travis.lamberte.com/orbit/index.html',
-			largeTitle: false,
-		},
-		{
-			id: 4,
-			title: "90's Throwback",
-			image: TBGif,
-			github: 'https://github.com/seattletravis',
-			link: 'https://travis.lamberte.com/throwback90s/index.html',
-			largeTitle: false,
-		},
-		{
-			id: 5,
-			title: 'Tetrominos',
-			image: TetrominosLogo,
-			github: 'https://github.com/seattletravis',
-			link: 'https://travis.lamberte.com/tetromino/index.html',
-			largeTitle: false,
-		},
-		{
-			id: 7,
-			title: 'Old Website',
-			image: OldSiteLogo,
-			github: 'https://github.com/seattletravis',
-			link: 'https://travis.lamberte.com',
+			link: 'https://travislamberte.com/clock',
 			largeTitle: false,
 		},
 		{
@@ -178,7 +133,7 @@ function Work() {
 								/>
 							</div>
 							<a
-								href='https://travis.lamberte.com/bubbleGum/index.html'
+								href='https://travislamberte.com/bubblegum'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -191,10 +146,10 @@ function Work() {
 							<h1 className='port-title'>BubbleGum3D</h1>
 							<a
 								className='port-title-site'
-								href='https://travis.lamberte.com/bubbleGum/index.html'
+								href='https://travislamberte.com/bubblegum'
 								target='_blank'
 								rel='noreferrer'>
-								https://travis.lamberte.com/bubblegum/index.html
+								https://travislamberte.com/bubblegum
 							</a>
 							<p className='port-headline'>
 								A fully immersive 3D environment game build with ThreeJS, and a
@@ -288,7 +243,7 @@ function Work() {
 								/>
 							</div>
 							<a
-								href='https://lambertedesign.com'
+								href='https://travislamberte.com/snake'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -303,7 +258,7 @@ function Work() {
 							</h1>
 							<a
 								className='port-title-site'
-								href='https://lambertedesign.com'
+								href='https://travislamberte.com/snake'
 								target='_blank'
 								rel='noreferrer'>
 								https://lambertedesign.com

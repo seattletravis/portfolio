@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(144, 160, 161);
+}
+
+.clock {
+	margin: 40px auto;
+	width: min(80vw, 350px);
+	height: min(80vw, 350px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(./beemo_clock_images/clock2.png);
+	background-size: cover;
+	border-radius: 50%;
+	position: relative;
+}
+
+.clock:before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 10000;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+	position: absolute;
+}
+
+.clock .hour,
+.hr {
+	width: 160px;
+	height: 160px;
+	/* width: 45%;
+	height: 45%; */
+}
+
+.clock .min,
+.mn {
+	width: 190px;
+	height: 190px;
+	/* width: 55%;
+	height: 55%; */
+}
+
+.clock .sec,
+.sc {
+	width: 230px;
+	height: 230px;
+	/* width: 70%;
+	height: 70%; */
+}
+
+.hr,
+.mn,
+.sc {
+	display: flex;
+	justify-content: center;
+
+	/* align-items: center; */
+}
+
+.hr:before {
+	content: '';
+	position: absolute;
+	width: 8px;
+	height: 80px;
+	background: #f00303;
+	opacity: 0.9;
+	z-index: 10;
+	border-radius: 6px 6px 0 0;
+}
+
+.mn:before {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 90px;
+	background: white;
+	z-index: 11;
+	border-radius: 6px 6px 0 0;
+}
+
+.sc:before {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 150px;
+	background: white;
+	z-index: 12;
+	border-radius: 6px 6px 0 0;
+}
+
+.beemo {
+	width: 100vw;
+	border: 2px solid black;
+}
+
+.beemo_images_under {
+	width: 250px;
+	margin-bottom: 140px;
+	position: absolute;
+}
+
+.beemo_images_over {
+	width: 250px;
+	margin-bottom: 140px;
+	position: relative;
+}
+
+#beemo_tail_eyes {
+	position: absolute;
+}
+
+#beemo_body_overlay {
+	position: relative;
+}
+
+.dateTime {
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 400px;
+}
+
+#date {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+	color: #000000;
+	font-size: 40px;
+	font-style: italic;
+}
+
+#time {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
+
+	color: #000000;
+	font-size: 40px;
+	font-style: italic;
+}
+
+#returnToDiv {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#returnToBtn {
+	font-size: 20px;
+	text-decoration: none !important;
+	color: white;
+	background-color: #333;
+	border: 3px solid grey;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
+
+#returnToBtn:hover {
+	color: blue;
+	background-color: rgb(235, 238, 232);
+	border: 3px solid blue;
+}
+
+h1 {
+	color: #000000;
+	font-size: 50px;
+	font-style: italic;
+	margin-left: 40px;
+	margin-top: 40px;
+	/* font-family: cursive; */
+}
+
+.pageTitle {
+	color: #000000;
+	font-size: 50px;
+	font-style: italic;
+	margin-top: 40px;
+	text-align: center;
+}

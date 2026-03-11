@@ -1,7 +1,18 @@
 RewriteEngine On
+RewriteBase /
+
+# Exclude static project folders from React routing
 
 RewriteCond %{REQUEST_URI} !^/bubblegum/
 RewriteCond %{REQUEST_URI} !^/tilt3d/
+RewriteCond %{REQUEST_URI} !^/clock/
+RewriteCond %{REQUEST_URI} !^/snake/
+
+# Allow existing files and directories
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.html [L]
+
+# Send everything else to React
+
+RewriteRule . /index.html [L]

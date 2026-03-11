@@ -12,6 +12,7 @@ import GoImg from '../Media/Images/skills/go.png';
 import PythonImg from '../Media/Images/skills/python.png';
 import JavaImg from '../Media/Images/skills/java.png';
 import CWUImg from '../Media/Images/cwu_logo.png';
+import EUImg from '../Media/Images/eu_logo.png';
 import MetaImg from '../Media/Images/meta_logo.png';
 import GoogleImg from '../Media/Images/google_logo.png';
 import IBMImg from '../Media/Images/IBM_logo.png';
@@ -25,7 +26,10 @@ function Skills() {
 	const [mouse2, setMouse2] = useState(false);
 	const [mouse3, setMouse3] = useState(false);
 	const [mouse4, setMouse4] = useState(false);
-	const [cert, setCert] = useState(false);
+	const [mouse5, setMouse5] = useState(false);
+
+	const [cert1, setCert1] = useState(false);
+	const [cert2, setCert2] = useState(false);
 	const [edSepRef, edSepInView] = useInView({
 		threshold: 0,
 		triggerOnce: true,
@@ -38,6 +42,7 @@ function Skills() {
 	const [ed2Ref, ed2InView] = useInView({ threshold: 0, triggerOnce: true });
 	const [ed3Ref, ed3InView] = useInView({ threshold: 0, triggerOnce: true });
 	const [ed4Ref, ed4InView] = useInView({ threshold: 0, triggerOnce: true });
+	const [ed5Ref, ed5InView] = useInView({ threshold: 0, triggerOnce: true });
 	return (
 		<div className='skills-container'>
 			<div className='skills-wrapper'>
@@ -186,6 +191,7 @@ function Skills() {
 					<span>s</span>
 				</h1>
 				<div className='cert-items'>
+					{/* EVERYTHING EASTERN UNIVERSITY HERE */}
 					<div
 						className='cwu-item'
 						ref={ed1Ref}
@@ -196,27 +202,86 @@ function Skills() {
 							className='cwu-img-wrapper'
 							onMouseEnter={() => setMouse1(false)}
 							onMouseLeave={() => setMouse1(true)}
-							onClick={() => setCert(!cert)}>
+							onClick={() => setCert1(!cert1)}>
+							<div className='cwu-images'>
+								<img
+									className='cwu-img'
+									src={EUImg}
+									alt='EASTERN'
+									style={cert1 ? { opacity: '0' } : { opacity: '1' }}
+								/>
+								<img
+									className='cwu-img'
+									src={cwuDiploma}
+									alt='Eastern University MS Data Science'
+									style={cert1 ? { opacity: '1' } : { opacity: '0' }}
+								/>
+							</div>
+							<GiClick id={mouse1 ? 'cwu-pointer' : 'cwu-pointer-gone'} />
+							<div className='cwu-img-hover-box'>
+								<h1 style={cert1 ? { opacity: '1' } : { opacity: '0' }}>
+									Click to hide certificate
+								</h1>
+								<h1 style={cert1 ? { opacity: '0' } : { opacity: '1' }}>
+									Click to view certificate
+								</h1>
+							</div>
+						</div>
+						<div className='cwu-text-box'>
+							<h3>St Davids, PA</h3>
+							<h1>MS in Data Science</h1>
+							<h4>Eastern University - Go Eagles!</h4>
+							<p>
+								Advanced studies in data management, SQL, RStudio, Statitics,
+								API's, AI, Algorithm's and Applied Machine Learning.
+							</p>
+							<div className='cwu-description-box'>
+								<p>As a student:</p>
+								<ul>
+									<li>Studied advanced data processes</li>
+									<li>Worked with applied machine learning</li>
+									<li>Extract, Transform, Load</li>
+									<li>Earned 4.0/4.0 GPA</li>
+								</ul>
+							</div>
+							<p>
+								Built animated data visualizations, and did research on bias
+								mitigation in Automated Tracking Systems.
+							</p>
+						</div>
+					</div>
+					{/* CENTRAL WASHINGTON UNIVERSITY */}
+					<div
+						className='cwu-item'
+						ref={ed2Ref}
+						id={ed2InView ? 'cert2-active' : undefined}
+						onMouseEnter={() => setMouse2(true)}
+						onMouseLeave={() => setMouse2(false)}>
+						<div
+							className='cwu-img-wrapper'
+							onMouseEnter={() => setMouse2(false)}
+							onMouseLeave={() => setMouse2(true)}
+							onClick={() => setCert2(!cert2)}>
 							<div className='cwu-images'>
 								<img
 									className='cwu-img'
 									src={CWUImg}
 									alt='CWU'
-									style={cert ? { opacity: '0' } : { opacity: '1' }}
+									style={cert2 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 								<img
 									className='cwu-img'
 									src={cwuDiploma}
 									alt='CWU School of Science'
-									style={cert ? { opacity: '1' } : { opacity: '0' }}
+									style={cert2 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 							</div>
-							<GiClick id={mouse1 ? 'cwu-pointer' : 'cwu-pointer-gone'} />
+							<GiClick id={mouse2 ? 'cwu-pointer' : 'cwu-pointer-gone'} />
 							<div className='cwu-img-hover-box'>
-								<h1 style={cert ? { opacity: '1' } : { opacity: '0' }}>
+								<h1 style={cert2 ? { opacity: '1' } : { opacity: '0' }}>
 									Click to hide certificate
 								</h1>
-								<h1 style={cert ? { opacity: '0' } : { opacity: '1' }}>
+								<h1 style={cert2 ? { opacity: '0' } : { opacity: '1' }}>
 									Click to view certificate
 								</h1>
 							</div>
@@ -247,10 +312,11 @@ function Skills() {
 							</p>
 						</div>
 					</div>
+					{/* CERTIFICATES ALL GO HERE */}
 					<div
-						ref={ed4Ref}
+						ref={ed3Ref}
 						className='cert-item'
-						id={ed4InView ? 'cert4-active' : undefined}
+						id={ed4InView ? 'cert3-active' : undefined}
 						onMouseEnter={() => setMouse3(true)}
 						onMouseLeave={() => setMouse3(false)}>
 						<a
@@ -281,21 +347,21 @@ function Skills() {
 						</div>
 					</div>
 					<div
-						ref={ed2Ref}
+						ref={ed4Ref}
 						className='cert-item'
-						id={ed2InView ? 'cert2-active' : undefined}
-						onMouseEnter={() => setMouse2(true)}
-						onMouseLeave={() => setMouse2(false)}>
+						id={ed2InView ? 'cert4-active' : undefined}
+						onMouseEnter={() => setMouse4(true)}
+						onMouseLeave={() => setMouse4(false)}>
 						<a
 							href='https://coursera.org/share/5112f23d56e2e1a4e9c3032d16a6ad8e'
 							target='_blank'
 							rel='noreferrer'>
 							<div
 								className='cert-img-wrapper'
-								onMouseEnter={() => setMouse2(false)}
-								onMouseLeave={() => setMouse2(true)}>
+								onMouseEnter={() => setMouse4(false)}
+								onMouseLeave={() => setMouse4(true)}>
 								<img className='cert-img' src={MetaImg} alt='AWS' />
-								<GiClick id={mouse2 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<GiClick id={mouse4 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
 									<BsBoxArrowUpRight id='cert-arrow' />
@@ -311,25 +377,25 @@ function Skills() {
 						</div>
 					</div>
 					<div
-						ref={ed3Ref}
+						ref={ed5Ref}
 						className='cert-item'
-						id={ed3InView ? 'cert3-active' : undefined}
-						onMouseEnter={() => setMouse3(true)}
-						onMouseLeave={() => setMouse3(false)}>
+						id={ed5InView ? 'cert5-active' : undefined}
+						onMouseEnter={() => setMouse5(true)}
+						onMouseLeave={() => setMouse5(false)}>
 						<a
 							href='https://coursera.org/share/bfee3098f1003fbd25b21aefa21720d5'
 							target='_blank'
 							rel='noreferrer'>
 							<div
 								className='cert-img-wrapper'
-								onMouseEnter={() => setMouse3(false)}
-								onMouseLeave={() => setMouse3(true)}>
+								onMouseEnter={() => setMouse5(false)}
+								onMouseLeave={() => setMouse5(true)}>
 								<img
 									className='cert-img'
 									src={GoogleImg}
 									alt='Comptia Security +'
 								/>
-								<GiClick id={mouse3 ? 'cert-pointer' : 'cert-pointer-gone'} />
+								<GiClick id={mouse5 ? 'cert-pointer' : 'cert-pointer-gone'} />
 								<div className='cert-img-hover-box'>
 									<h1>View certificate</h1>
 									<BsBoxArrowUpRight id='cert-arrow' />

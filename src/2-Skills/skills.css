@@ -242,6 +242,7 @@
 #cert1-active {
 	animation: certItemSlide 2s ease forwards;
 }
+
 @keyframes certItemSlide {
 	100% {
 		opacity: 1;
@@ -394,8 +395,9 @@
 }
 #cert2-active,
 #cert3-active,
-#cert4-active {
-	animation: certItemSlide 3s ease forwards;
+#cert4-active,
+#cert5-active {
+	animation: certItemSlide 3s ease 0.25s forwards;
 }
 .cert-img-hover-box {
 	position: absolute;
