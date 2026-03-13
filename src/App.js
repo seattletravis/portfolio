@@ -29,7 +29,7 @@ function App() {
 				<Route path='/tilt3d' element={<Tilt3DMenu />} />
 				<Route path='/tilt3d/single' element={<Tilt3DSingle />} />
 				<Route path='/tilt3d/multi' element={<Tilt3DMulti />} />
-				<Route path='/bubblegum' element={<BubbleGum />} />
+				<Route path='/gum' element={<BubbleGum />} />
 				<Route path='/snake' element={<SnakeBoids />} />
 				<Route path='/clock' element={<BeemoClock />} />
 				<Route path='*' element={<About />} />
