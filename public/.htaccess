@@ -3,7 +3,7 @@ RewriteBase /
 
 # Exclude static project folders from React routing
 
-RewriteCond %{REQUEST_URI} !^/bubblegum/
+RewriteCond %{REQUEST_URI} !^/gum/
 RewriteCond %{REQUEST_URI} !^/tilt3d/
 RewriteCond %{REQUEST_URI} !^/clock/
 RewriteCond %{REQUEST_URI} !^/snake/
