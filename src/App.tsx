@@ -1,20 +1,18 @@
-// import { Fragment } from 'react';
-// import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
-// import { Routes, Route, HashRouter } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './Navbar/Navbar';
-import About from './About/About';
-import Skills from './Skills/Skills';
-import Work from './Work/Work';
-import Contact from './Contact/Contact';
-import Layout from './Layout/Layout';
-import Tilt3DMenu from './pages/Tilt3DMenu';
-import Tilt3DSingle from './pages/Tilt3DSingle';
-import Tilt3DMulti from './pages/Tilt3DMulti';
-import BubbleGum from './pages/BubbleGum';
-import SnakeBoids from './pages/SnakeBoids';
-import BeemoClock from './pages/BeemoClock';
+import Navbar from './Navbar/Navbar.js';
+import About from './About/About.js';
+import Skills from './Skills/Skills.js';
+import Work from './Work/Work.js';
+import Contact from './Contact/Contact.js';
+import Layout from './Layout/Layout.js';
+import Tilt3DMenu from './pages/Tilt3DMenu.jsx';
+import Tilt3DSingle from './pages/Tilt3DSingle.jsx';
+import Tilt3DMulti from './pages/Tilt3DMulti.jsx';
+import BubbleGum from './pages/BubbleGum.jsx';
+import SnakeBoids from './pages/SnakeBoids.jsx';
+import BeemoClock from './pages/BeemoClock.jsx';
+import GuessleGame from './Guessle/GuessleGame.tsx';
 
 function App() {
 	return (
@@ -32,6 +30,8 @@ function App() {
 				<Route path='/gum' element={<BubbleGum />} />
 				<Route path='/snake' element={<SnakeBoids />} />
 				<Route path='/clock' element={<BeemoClock />} />
+				<Route path='/guessle' element={<GuessleGame />} />
+
 				<Route path='*' element={<About />} />
 			</Routes>
 		</BrowserRouter>
