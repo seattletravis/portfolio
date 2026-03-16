@@ -12,7 +12,7 @@ import Tilt3DMulti from './pages/Tilt3DMulti.jsx';
 import BubbleGum from './pages/BubbleGum.jsx';
 import SnakeBoids from './pages/SnakeBoids.jsx';
 import BeemoClock from './pages/BeemoClock.jsx';
-import GuessleGame from './Guessle/GuessleGame.tsx';
+import GuessleGame from './pages/GuessleGame.jsx';
 
 function App() {
 	return (

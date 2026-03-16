@@ -7,6 +7,7 @@ RewriteCond %{REQUEST_URI} !^/gum/
 RewriteCond %{REQUEST_URI} !^/tilt3d/
 RewriteCond %{REQUEST_URI} !^/clock/
 RewriteCond %{REQUEST_URI} !^/snake/
+RewriteCond %{REQUEST_URI} !^/guessle/
 
 # Allow existing files and directories
 
