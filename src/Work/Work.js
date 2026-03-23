@@ -111,6 +111,60 @@ function Work() {
 					<span>walkthrough.&nbsp;</span>
 				</p>
 				<div className='port-items'>
+					{/* EVERYTHING GUESSLE */}
+					<div
+						className='port-item'
+						id='portItem1'
+						onMouseEnter={() => setPort1(true)}
+						onMouseLeave={() => setPort1(false)}>
+						<div className='port-gif-box'>
+							<div className='port-gif-wrapper'>
+								<img
+									className='port-gif'
+									src={BubbleGumGif}
+									alt='Bubble Gum Guessing Game'
+									style={port1 ? { opacity: '1' } : { opacity: '0' }}
+								/>
+								<img
+									className='port-gif port-gif-logo'
+									src={BubbleGumImg}
+									alt='BUbble Gum Guessing Game'
+									style={port1 ? { opacity: '0' } : { opacity: '1' }}
+								/>
+							</div>
+							<a
+								href='https://travislamberte.com/guessle'
+								target='_blank'
+								rel='noreferrer'>
+								<div className='portGifPopup'>
+									<p>Go to site</p>
+									<BsBoxArrowUpRight id='goToSitePort' />
+								</div>
+							</a>
+						</div>
+						<div className='port-text-box'>
+							<h1 className='port-title'>Guessle</h1>
+							<a
+								className='port-title-site'
+								href='https://travislamberte.com/guessle'
+								target='_blank'
+								rel='noreferrer'>
+								https://travislamberte.com/guessle
+							</a>
+							<p className='port-headline'>
+								A mobile friendly wordle style guessing game applied to a
+								classic guessing game.
+							</p>
+							<div className='port-btn-box'>
+								<div
+									className='port-btn-more'
+									onClick={() => handleOpenModal(1)}>
+									<span id='port-more-text'>More Details</span>
+									<BsArrowRight id='port-more-arrow' />
+								</div>
+							</div>
+						</div>
+					</div>
 					{/* EVERYTHING BUBBLE GUM */}
 					<div
 						className='port-item'
