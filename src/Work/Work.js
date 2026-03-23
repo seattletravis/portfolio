@@ -122,13 +122,13 @@ function Work() {
 								<img
 									className='port-gif'
 									src={BubbleGumGif}
-									alt='Bubble Gum Guessing Game'
+									alt='Guessle Guessing Game'
 									style={port1 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={BubbleGumImg}
-									alt='BUbble Gum Guessing Game'
+									alt='Guessle Guessing Game'
 									style={port1 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>

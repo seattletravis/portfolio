@@ -24,6 +24,26 @@ function Modal({ open, setOpenModal, modalID }) {
 	const modalData = [
 		{
 			id: 1,
+			title: 'Guessle',
+			logo: BubbleGumIcon,
+			desc: "Guessle is a interactive guessing game where each guess gives you clues to what is and isn't in the number. Green digits are in the right place, yellow digits are in the wrong place, and red digits arn't in the number at all! Can you guess the number of candies in 4 tries?",
+			features: [
+				'3D Environment',
+				'Elegant Game UX',
+				'Scoring and Gameplay mechanics',
+			],
+			tools: [SiJavascript, SiHtml5, SiCss3],
+			technologies: {
+				frontend: 'JavaScript, HTML, CSS',
+				backend: 'ThreeJS',
+			},
+			link: 'https://travislamberte.com/guessle',
+			url: 'https://travislamberte.com/guessle',
+			github: 'https://github.com/seattletravis/guessle',
+			video: 'https://www.youtube.com/embed/PI22b1pHpeg?si=YK7E8b2spJlW4lMh',
+		},
+		{
+			id: 1,
 			title: 'BubbleGum3D',
 			logo: BubbleGumIcon,
 			desc: "Bubble Gum 3D is a State Fair Style number guessing game where you'll get your chance, to Guess the number of candies that are in the candy dish, is it 1... or 1000?! You won't know until you've guessed it!",
@@ -38,8 +58,8 @@ function Modal({ open, setOpenModal, modalID }) {
 				frontend: 'JavaScript, HTML, CSS',
 				backend: 'ThreeJS, CannonES',
 			},
-			link: 'https://travislamberte.com/bubblegum',
-			url: 'https://travislamberte.com/bubblegum',
+			link: 'https://travislamberte.com/gum',
+			url: 'https://travislamberte.com/gum',
 			github: 'https://github.com/seattletravis/bubblegum3d',
 			video: 'https://www.youtube.com/embed/PI22b1pHpeg?si=YK7E8b2spJlW4lMh',
 		},
