@@ -131,7 +131,9 @@
 	width: 50%;
 	margin: 0 auto;
 	border-radius: 0.5rem;
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	box-shadow:
+		rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
 	overflow: hidden;
 	border: 2px solid transparent;
 	transition: border 0.5s ease-in-out;
@@ -209,6 +211,18 @@
 	animation: portAnimWrap 1s ease 2.5s forwards;
 }
 #portItem4 .portGifPopup {
+	animation: portAnimPop 1s ease 4.5s forwards;
+}
+#portItem5 {
+	animation: portAnimItem 1s ease 2.5s forwards;
+}
+#portItem5 .port-gif-box {
+	animation: portAnimBox 1s ease 2.5s forwards;
+}
+#portItem5 .port-gif-wrapper {
+	animation: portAnimWrap 1s ease 2.5s forwards;
+}
+#portItem5 .portGifPopup {
 	animation: portAnimPop 1s ease 4.5s forwards;
 }
 

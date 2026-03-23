@@ -11,8 +11,10 @@ import UnchaGif from '../Media/Gifs/UnchaGIF.gif';
 import SnakeGif from '../Media/Gifs/SnakeGIF.gif';
 import Tilt3DGif from '../Media/Gifs/Tilt3DGIF.gif';
 import BubbleGumGif from '../Media/Gifs/BubbleGumGIF.gif';
+import GuessleGif from '../Media/Gifs/GuessleGIF.gif';
 // Feature Logos
 import BubbleGumImg from '../Media/Images/projectImages/BubbleGumIMG.png';
+import GuessleImg from '../Media/Images/projectImages/Guessle.png';
 import SnakeImg from '../Media/Images/projectImages/SnakeIMG.png';
 import UnchaImg from '../Media/Images/projectImages/UnchaIMG.png';
 import Tilt3DImg from '../Media/Images/projectImages/Tilt3DIMG.png';
@@ -26,6 +28,7 @@ function Work() {
 		window.scrollTo(0, 0);
 	}, []);
 	const navigate = useNavigate();
+	const [port5, setPort5] = useState(false);
 	const [port1, setPort1] = useState(false);
 	const [port2, setPort2] = useState(false);
 	const [port3, setPort3] = useState(false);
@@ -72,6 +75,7 @@ function Work() {
 	];
 	function handleOpenModal(id) {
 		setModalID(id);
+		setPort5(false);
 		setPort1(false);
 		setPort2(false);
 		setPort3(false);
@@ -114,22 +118,22 @@ function Work() {
 					{/* EVERYTHING GUESSLE */}
 					<div
 						className='port-item'
-						id='portItem1'
-						onMouseEnter={() => setPort1(true)}
-						onMouseLeave={() => setPort1(false)}>
+						id='portItem5'
+						onMouseEnter={() => setPort5(true)}
+						onMouseLeave={() => setPort5(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
-									src={BubbleGumGif}
+									src={GuessleGif}
 									alt='Guessle Guessing Game'
-									style={port1 ? { opacity: '1' } : { opacity: '0' }}
+									style={port5 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
-									src={BubbleGumImg}
+									src={GuessleImg}
 									alt='Guessle Guessing Game'
-									style={port1 ? { opacity: '0' } : { opacity: '1' }}
+									style={port5 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
@@ -152,13 +156,13 @@ function Work() {
 								https://travislamberte.com/guessle
 							</a>
 							<p className='port-headline'>
-								A mobile friendly wordle style guessing game applied to a
+								A mobile friendly wordle style guessing experience applied to a
 								classic guessing game.
 							</p>
 							<div className='port-btn-box'>
 								<div
 									className='port-btn-more'
-									onClick={() => handleOpenModal(1)}>
+									onClick={() => handleOpenModal(5)}>
 									<span id='port-more-text'>More Details</span>
 									<BsArrowRight id='port-more-arrow' />
 								</div>
