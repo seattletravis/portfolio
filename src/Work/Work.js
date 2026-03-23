@@ -133,7 +133,7 @@ function Work() {
 								/>
 							</div>
 							<a
-								href='https://travislamberte.com/bubblegum'
+								href='https://travislamberte.com/gum'
 								target='_blank'
 								rel='noreferrer'>
 								<div className='portGifPopup'>
@@ -146,10 +146,10 @@ function Work() {
 							<h1 className='port-title'>BubbleGum3D</h1>
 							<a
 								className='port-title-site'
-								href='https://travislamberte.com/bubblegum'
+								href='https://travislamberte.com/gum'
 								target='_blank'
 								rel='noreferrer'>
-								https://travislamberte.com/bubblegum
+								https://travislamberte.com/gum
 							</a>
 							<p className='port-headline'>
 								A fully immersive 3D environment game build with ThreeJS, and a
