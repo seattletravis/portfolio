@@ -28,11 +28,11 @@ function Work() {
 		window.scrollTo(0, 0);
 	}, []);
 	const navigate = useNavigate();
-	const [port5, setPort5] = useState(false);
 	const [port1, setPort1] = useState(false);
 	const [port2, setPort2] = useState(false);
 	const [port3, setPort3] = useState(false);
 	const [port4, setPort4] = useState(false);
+	const [port5, setPort5] = useState(false);
 	const [modalID, setModalID] = useState(null);
 	const [openModal, setOpenModal] = useState(false);
 	const [otherSepRef, otherSepInView] = useInView({
@@ -75,11 +75,11 @@ function Work() {
 	];
 	function handleOpenModal(id) {
 		setModalID(id);
-		setPort5(false);
 		setPort1(false);
 		setPort2(false);
 		setPort3(false);
 		setPort4(false);
+		setPort5(false);
 		setOpenModal(true);
 	}
 	return (
@@ -118,22 +118,22 @@ function Work() {
 					{/* EVERYTHING GUESSLE */}
 					<div
 						className='port-item'
-						id='portItem5'
-						onMouseEnter={() => setPort5(true)}
-						onMouseLeave={() => setPort5(false)}>
+						id='portItem1'
+						onMouseEnter={() => setPort1(true)}
+						onMouseLeave={() => setPort1(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
 									src={GuessleGif}
 									alt='Guessle Guessing Game'
-									style={port5 ? { opacity: '1' } : { opacity: '0' }}
+									style={port1 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={GuessleImg}
 									alt='Guessle Guessing Game'
-									style={port5 ? { opacity: '0' } : { opacity: '1' }}
+									style={port1 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
@@ -172,22 +172,22 @@ function Work() {
 					{/* EVERYTHING BUBBLE GUM */}
 					<div
 						className='port-item'
-						id='portItem1'
-						onMouseEnter={() => setPort1(true)}
-						onMouseLeave={() => setPort1(false)}>
+						id='portItem2'
+						onMouseEnter={() => setPort2(true)}
+						onMouseLeave={() => setPort2(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
 									src={BubbleGumGif}
 									alt='Bubble Gum Guessing Game'
-									style={port1 ? { opacity: '1' } : { opacity: '0' }}
+									style={port2 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={BubbleGumImg}
 									alt='BUbble Gum Guessing Game'
-									style={port1 ? { opacity: '0' } : { opacity: '1' }}
+									style={port2 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
@@ -226,22 +226,22 @@ function Work() {
 					{/* EVERYTHING TILT3D */}
 					<div
 						className='port-item'
-						id='portItem2'
-						onMouseEnter={() => setPort2(true)}
-						onMouseLeave={() => setPort2(false)}>
+						id='portItem3'
+						onMouseEnter={() => setPort3(true)}
+						onMouseLeave={() => setPort3(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
 									src={Tilt3DGif}
 									alt='Tilt3D Image'
-									style={port2 ? { opacity: '1' } : { opacity: '0' }}
+									style={port3 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={Tilt3DImg}
 									alt='Tilt3D Image'
-									style={port2 ? { opacity: '0' } : { opacity: '1' }}
+									style={port3 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
@@ -282,22 +282,22 @@ function Work() {
 					{/* EVERYTHING SNAKE EATS BOIDS */}
 					<div
 						className='port-item'
-						id='portItem3'
-						onMouseEnter={() => setPort3(true)}
-						onMouseLeave={() => setPort3(false)}>
+						id='portItem4'
+						onMouseEnter={() => setPort4(true)}
+						onMouseLeave={() => setPort4(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
 									src={SnakeGif}
 									alt='Snake Eats Boids Image'
-									style={port3 ? { opacity: '1' } : { opacity: '0' }}
+									style={port4 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={SnakeImg}
 									alt='Snake Eats Boids Image'
-									style={port3 ? { opacity: '0' } : { opacity: '1' }}
+									style={port4 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
@@ -338,22 +338,22 @@ function Work() {
 					{/* EVERYTHING UNCHA */}
 					<div
 						className='port-item'
-						id='portItem4'
-						onMouseEnter={() => setPort4(true)}
-						onMouseLeave={() => setPort4(false)}>
+						id='portItem5'
+						onMouseEnter={() => setPort5(true)}
+						onMouseLeave={() => setPort5(false)}>
 						<div className='port-gif-box'>
 							<div className='port-gif-wrapper'>
 								<img
 									className='port-gif'
 									src={UnchaGif}
 									alt='Grocery Magix Gif'
-									style={port4 ? { opacity: '1' } : { opacity: '0' }}
+									style={port5 ? { opacity: '1' } : { opacity: '0' }}
 								/>
 								<img
 									className='port-gif port-gif-logo'
 									src={UnchaImg}
 									alt='Grocery Magix Logo'
-									style={port4 ? { opacity: '0' } : { opacity: '1' }}
+									style={port5 ? { opacity: '0' } : { opacity: '1' }}
 								/>
 							</div>
 							<a
